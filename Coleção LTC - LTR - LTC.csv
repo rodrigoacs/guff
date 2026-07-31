@@ -1,0 +1,559 @@
+Nº,Card,Check
+1,"Éowyn, Shieldmaiden",TRUE
+2,"Frodo, Adventurous Hobbit",TRUE
+3,"Galadriel, Elven-Queen",TRUE
+4,"Sauron, Lord of the Rings",TRUE
+5,"Aragorn, King of Gondor",TRUE
+6,"Gandalf, Westward Voyager",TRUE
+7,"Sam, Loyal Attendant",TRUE
+8,"Saruman, the White Hand",TRUE
+9,Beregond of the Guard,TRUE
+10,Champions of Minas Tirith,TRUE
+11,Field-Tested Frying Pan,TRUE
+12,The Gaffer,TRUE
+13,"Gilraen, Dúnedain Protector",TRUE
+14,Grey Host Reinforcements,TRUE
+15,"Gwaihir, Greatest of the Eagles",TRUE
+16,Lossarnach Captain,TRUE
+17,Of Herbs and Stewed Rabbit,TRUE
+18,Archivist of Gondor,TRUE
+19,Corsairs of Umbar,TRUE
+20,"Denethor, Stone Seer",TRUE
+21,Fealty to the Realm,TRUE
+22,Monstrosity of the Lake,TRUE
+23,Raise the Palisade,TRUE
+24,Subjugate the Hobbits,TRUE
+25,Trap the Trespassers,TRUE
+26,"Gollum, Obsessed Stalker",TRUE
+27,"Lobelia, Defender of Bag End",TRUE
+28,Rapacious Guest,TRUE
+29,"Shelob, Dread Weaver",TRUE
+30,Call for Aid,TRUE
+31,Cavern-Hoard Dragon,TRUE
+32,Gimli of the Glittering Caves,TRUE
+33,Orcish Siegemaster,TRUE
+34,Rampaging War Mammoth,TRUE
+35,"Arwen, Weaver of Hope",TRUE
+36,Assemble the Entmoot,TRUE
+37,Feasting Hobbit,TRUE
+38,Galadhrim Ambush,TRUE
+39,"Haldir, Lórien Lieutenant",TRUE
+40,Legolas Greenleaf,TRUE
+41,Mirkwood Elk,TRUE
+42,Motivated Pony,TRUE
+43,Prize Pig,TRUE
+44,Travel Through Caradhras,TRUE
+45,Windswift Slice,TRUE
+46,The Balrog of Moria,TRUE
+47,Banquet Guests,TRUE
+48,"Bilbo, Birthday Celebrant",TRUE
+49,"Boromir, Gondor's Hope",TRUE
+50,Círdan the Shipwright,TRUE
+51,Elrond of the White Council,TRUE
+52,"Éomer, King of Rohan",TRUE
+53,Erestor of the Council,TRUE
+54,"Faramir, Steward of Gondor",TRUE
+55,Farmer Cotton,TRUE
+56,Forth Eorlingas!,TRUE
+57,"Gríma, Saruman's Footman",TRUE
+58,In the Darkness Bind Them,TRUE
+59,Lidless Gaze,TRUE
+60,Lord of the Nazgûl,TRUE
+61,"Merry, Warden of Isengard",TRUE
+62,Mirkwood Trapper,TRUE
+63,Moria Scavenger,TRUE
+64,Oath of Eorl,TRUE
+65,"Pippin, Warden of Isengard",TRUE
+66,"Radagast, Wizard of Wilds",TRUE
+67,Riders of Rohan,TRUE
+68,Sail into the West,TRUE
+69,Song of Eärendil,TRUE
+70,Summons of Saruman,TRUE
+71,Taunt from the Rampart,TRUE
+72,"Too Greedily, Too Deep",TRUE
+73,"Treebeard, Gracious Host",TRUE
+74,Wake the Dragon,TRUE
+75,Crown of Gondor,TRUE
+76,Hithlain Rope,TRUE
+77,Lothlórien Blade,TRUE
+78,Model of Unity,TRUE
+79,Relic of Sauron,TRUE
+80,The Black Gate,TRUE
+81,"Éowyn, Shieldmaiden",TRUE
+82,"Frodo, Adventurous Hobbit",TRUE
+83,"Galadriel, Elven-Queen",TRUE
+84,"Sauron, Lord of the Rings",TRUE
+85,"Aragorn, King of Gondor",FALSE
+86,"Éowyn, Shieldmaiden",FALSE
+87,"Frodo, Adventurous Hobbit",FALSE
+88,"Galadriel, Elven-Queen",FALSE
+89,"Gandalf, Westward Voyager",FALSE
+90,"Sam, Loyal Attendant",FALSE
+91,"Saruman, the White Hand",FALSE
+92,"Sauron, Lord of the Rings",FALSE
+93,Beregond of the Guard,FALSE
+94,Champions of Minas Tirith,FALSE
+95,Field-Tested Frying Pan,FALSE
+96,The Gaffer,FALSE
+97,"Gilraen, Dúnedain Protector",FALSE
+98,Grey Host Reinforcements,FALSE
+99,"Gwaihir, Greatest of the Eagles",FALSE
+100,Lossarnach Captain,FALSE
+101,Archivist of Gondor,TRUE
+102,Corsairs of Umbar,FALSE
+103,"Denethor, Stone Seer",TRUE
+104,Fealty to the Realm,FALSE
+105,Monstrosity of the Lake,FALSE
+106,Raise the Palisade,FALSE
+107,Subjugate the Hobbits,FALSE
+108,Trap the Trespassers,FALSE
+109,"Gollum, Obsessed Stalker",FALSE
+110,"Lobelia, Defender of Bag End",TRUE
+111,Rapacious Guest,FALSE
+112,"Shelob, Dread Weaver",FALSE
+113,Call for Aid,FALSE
+114,Cavern-Hoard Dragon,FALSE
+115,Gimli of the Glittering Caves,FALSE
+116,Orcish Siegemaster,FALSE
+117,Rampaging War Mammoth,FALSE
+118,"Arwen, Weaver of Hope",FALSE
+119,Assemble the Entmoot,FALSE
+120,Feasting Hobbit,FALSE
+121,Galadhrim Ambush,FALSE
+122,"Haldir, Lórien Lieutenant",FALSE
+123,Legolas Greenleaf,FALSE
+124,Mirkwood Elk,FALSE
+125,Motivated Pony,FALSE
+126,Prize Pig,TRUE
+127,Travel Through Caradhras,FALSE
+128,Windswift Slice,FALSE
+129,The Balrog of Moria,FALSE
+130,Banquet Guests,FALSE
+131,"Bilbo, Birthday Celebrant",FALSE
+132,"Boromir, Gondor's Hope",FALSE
+133,Círdan the Shipwright,FALSE
+134,Elrond of the White Council,FALSE
+135,"Éomer, King of Rohan",FALSE
+136,Erestor of the Council,FALSE
+137,"Faramir, Steward of Gondor",FALSE
+138,Farmer Cotton,FALSE
+139,Forth Eorlingas!,FALSE
+140,"Gríma, Saruman's Footman",FALSE
+141,Lidless Gaze,FALSE
+142,Lord of the Nazgûl,FALSE
+143,"Merry, Warden of Isengard",FALSE
+144,Mirkwood Trapper,TRUE
+145,Moria Scavenger,FALSE
+146,"Pippin, Warden of Isengard",FALSE
+147,"Radagast, Wizard of Wilds",FALSE
+148,Riders of Rohan,FALSE
+149,Sail into the West,FALSE
+150,Summons of Saruman,TRUE
+151,Taunt from the Rampart,TRUE
+152,"Too Greedily, Too Deep",FALSE
+153,"Treebeard, Gracious Host",FALSE
+154,Wake the Dragon,FALSE
+155,Crown of Gondor,FALSE
+156,Hithlain Rope,FALSE
+157,Lothlórien Blade,FALSE
+158,Model of Unity,FALSE
+159,Relic of Sauron,FALSE
+160,The Black Gate,FALSE
+161,Banishing Light,TRUE
+162,Bastion Protector,TRUE
+163,Call for Unity,TRUE
+164,Dawn of Hope,TRUE
+165,Dearly Departed,TRUE
+166,Dusk // Dawn,TRUE
+167,Fell the Mighty,TRUE
+168,Fiend Hunter,TRUE
+169,Frontline Medic,TRUE
+170,Fumigate,TRUE
+171,Increasing Devotion,TRUE
+172,Marshal's Anthem,TRUE
+173,Mentor of the Meek,TRUE
+174,Palace Jailer,TRUE
+175,Path to Exile,TRUE
+176,Selfless Squire,TRUE
+177,Sunset Revelry,TRUE
+178,Swords to Plowshares,TRUE
+179,Unbreakable Formation,TRUE
+180,Verge Rangers,TRUE
+181,Village Bell-Ringer,TRUE
+182,Visions of Glory,TRUE
+183,Weathered Wayfarer,TRUE
+184,Arcane Denial,TRUE
+185,Boon of the Wish-Giver,TRUE
+186,Colossal Whale,TRUE
+187,Consider,TRUE
+188,Deep Analysis,TRUE
+189,Devastation Tide,TRUE
+190,Fact or Fiction,TRUE
+191,Forbidden Alchemy,TRUE
+192,Learn from the Past,TRUE
+193,Mystic Confluence,TRUE
+194,Opt,TRUE
+195,Plea for Power,TRUE
+196,Preordain,TRUE
+197,Swan Song,TRUE
+198,Crypt Incursion,TRUE
+199,Decree of Pain,TRUE
+200,Feed the Swarm,TRUE
+201,Go for the Throat,TRUE
+202,Languish,TRUE
+203,Living Death,TRUE
+204,Merciless Executioner,TRUE
+205,Night's Whisper,TRUE
+206,Reanimate,TRUE
+207,Revenge of Ravens,TRUE
+208,Sanguine Bond,TRUE
+209,Toxic Deluge,TRUE
+210,Anger,TRUE
+211,Blasphemous Act,TRUE
+212,Combat Celebrant,TRUE
+213,Court of Ire,TRUE
+214,Earthquake,TRUE
+215,Faithless Looting,TRUE
+216,Flamerush Rider,TRUE
+217,Frontier Warmonger,TRUE
+218,Goblin Cratermaker,TRUE
+219,Goblin Dark-Dwellers,TRUE
+220,Guttersnipe,TRUE
+221,Harsh Mentor,TRUE
+222,Humble Defector,TRUE
+223,Inferno Titan,TRUE
+224,Knollspine Dragon,TRUE
+225,Scourge of the Throne,TRUE
+226,Shared Animosity,TRUE
+227,Shiny Impetus,TRUE
+228,Siege-Gang Commander,TRUE
+229,Thrill of Possibility,TRUE
+230,Treasure Nabber,TRUE
+231,Zealous Conscripts,TRUE
+232,Arbor Elf,TRUE
+233,Asceticism,TRUE
+234,Beast Within,TRUE
+235,Birds of Paradise,TRUE
+236,Cultivate,TRUE
+237,Elvish Archdruid,TRUE
+238,Elvish Mystic,TRUE
+239,Elvish Piper,TRUE
+240,Elvish Visionary,TRUE
+241,Elvish Warmaster,TRUE
+242,Essence Warden,TRUE
+243,Farhaven Elf,TRUE
+244,Farseek,TRUE
+245,Genesis Wave,TRUE
+246,Gilded Goose,TRUE
+247,Great Oak Guardian,TRUE
+248,Harmonize,TRUE
+249,Heroic Intervention,TRUE
+250,Hornet Queen,TRUE
+251,Inscription of Abundance,TRUE
+252,Lignify,TRUE
+253,Orchard Strider,TRUE
+254,Overwhelming Stampede,TRUE
+255,Paradise Druid,TRUE
+256,Prosperous Innkeeper,TRUE
+257,Rampant Growth,TRUE
+258,Realm Seekers,TRUE
+259,Reclamation Sage,TRUE
+260,Seeds of Renewal,TRUE
+261,Sylvan Offering,TRUE
+262,Tireless Provisioner,TRUE
+263,Wood Elves,TRUE
+264,Woodfall Primus,TRUE
+265,Anguished Unmaking,TRUE
+266,Extract from Darkness,TRUE
+267,Growth Spiral,TRUE
+268,Hostage Taker,TRUE
+269,Mortify,TRUE
+270,Notion Thief,TRUE
+271,Savvy Hunter,TRUE
+272,Supreme Verdict,TRUE
+273,Arcane Signet,TRUE
+274,Basalt Monolith,TRUE
+275,Chromatic Lantern,TRUE
+276,Commander's Sphere,TRUE
+277,Door of Destinies,TRUE
+278,Everflowing Chalice,TRUE
+279,Heirloom Blade,TRUE
+280,Herald's Horn,TRUE
+281,Lightning Greaves,TRUE
+282,Mind Stone,TRUE
+283,Pristine Talisman,TRUE
+284,Sol Ring,TRUE
+285,Talisman of Conviction,TRUE
+286,Talisman of Progress,TRUE
+287,Thought Vessel,TRUE
+288,Trading Post,TRUE
+289,Vanquisher's Banner,TRUE
+290,Wayfarer's Bauble,TRUE
+291,Well of Lost Dreams,TRUE
+292,Whispersilk Cloak,TRUE
+293,Worn Powerstone,TRUE
+294,Access Tunnel,TRUE
+295,Ash Barrens,TRUE
+296,Battlefield Forge,TRUE
+297,Brushland,TRUE
+298,Canopy Vista,TRUE
+299,Choked Estuary,TRUE
+300,Clifftop Retreat,TRUE
+301,Command Tower,TRUE
+302,Crumbling Necropolis,TRUE
+303,Desolate Lighthouse,TRUE
+304,Dragonskull Summit,TRUE
+305,Drowned Catacomb,TRUE
+306,Evolving Wilds,TRUE
+307,Exotic Orchard,TRUE
+308,Field of Ruin,TRUE
+309,Flooded Grove,TRUE
+310,Foreboding Ruins,TRUE
+311,Fortified Village,TRUE
+312,Frostboil Snarl,TRUE
+313,Furycalm Snarl,TRUE
+314,Ghost Quarter,TRUE
+315,Glacial Fortress,TRUE
+316,Graypelt Refuge,TRUE
+317,Hinterland Harbor,TRUE
+318,Isolated Chapel,TRUE
+319,Lonely Sandbar,TRUE
+320,Murmuring Bosk,TRUE
+321,Necroblossom Snarl,TRUE
+322,Path of Ancestry,TRUE
+323,Port Town,TRUE
+324,Prairie Stream,TRUE
+325,Rejuvenating Springs,TRUE
+326,Rogue's Passage,TRUE
+327,Sandsteppe Citadel,TRUE
+328,Scattered Groves,TRUE
+329,Scoured Barrens,TRUE
+330,Secluded Courtyard,TRUE
+331,Shineshadow Snarl,TRUE
+332,Smoldering Marsh,TRUE
+333,Sulfur Falls,TRUE
+334,Sulfurous Springs,TRUE
+335,Sunken Hollow,TRUE
+336,Sunpetal Grove,TRUE
+337,Terramorphic Expanse,TRUE
+338,Thornwood Falls,TRUE
+339,Throne of the High City,TRUE
+340,Tranquil Cove,TRUE
+341,Tranquil Thicket,TRUE
+342,Underground River,TRUE
+343,Vineglimmer Snarl,TRUE
+344,Wind-Scarred Crag,TRUE
+345,Windbrisk Heights,TRUE
+346,Woodland Cemetery,TRUE
+347,Woodland Stream,TRUE
+348,The Great Henge,FALSE
+349,Cloudstone Curio,FALSE
+350,Ensnaring Bridge,FALSE
+351,The Ozolith,FALSE
+352,Rings of Brighthearth,FALSE
+353,Shadowspear,FALSE
+354,Sword of Hearth and Home,FALSE
+355,Sword of the Animist,FALSE
+356,Thorn of Amethyst,FALSE
+357,Ancient Tomb,FALSE
+358,Bojuka Bog,FALSE
+359,"Boseiju, Who Shelters All",FALSE
+360,Cabal Coffers,FALSE
+361,Castle Ardenvale,FALSE
+362,Cavern of Souls,FALSE
+363,Deserted Temple,FALSE
+364,Gemstone Caverns,FALSE
+365,Homeward Path,FALSE
+366,Horizon Canopy,FALSE
+367,Karakas,FALSE
+368,Kor Haven,FALSE
+369,"Minamo, School at Water's Edge",FALSE
+370,Mouth of Ronom,FALSE
+371,"Oboro, Palace in the Clouds",FALSE
+372,Pillar of the Paruns,FALSE
+373,Reflecting Pool,FALSE
+374,"Shinka, the Bloodsoaked Keep",FALSE
+375,"Urborg, Tomb of Yawgmoth",FALSE
+376,Wasteland,FALSE
+377,"Yavimaya, Cradle of Growth",FALSE
+378,The Great Henge,FALSE
+379,Cloudstone Curio,FALSE
+380,Ensnaring Bridge,FALSE
+381,The Ozolith,FALSE
+382,Rings of Brighthearth,FALSE
+383,Shadowspear,FALSE
+384,Sword of Hearth and Home,FALSE
+385,Sword of the Animist,FALSE
+386,Thorn of Amethyst,FALSE
+387,Ancient Tomb,FALSE
+388,Bojuka Bog,FALSE
+389,"Boseiju, Who Shelters All",FALSE
+390,Cabal Coffers,FALSE
+391,Castle Ardenvale,FALSE
+392,Cavern of Souls,FALSE
+393,Deserted Temple,FALSE
+394,Gemstone Caverns,FALSE
+395,Homeward Path,FALSE
+396,Horizon Canopy,FALSE
+397,Karakas,FALSE
+398,Kor Haven,FALSE
+399,"Minamo, School at Water's Edge",FALSE
+400,Mouth of Ronom,FALSE
+401,"Oboro, Palace in the Clouds",FALSE
+402,Pillar of the Paruns,FALSE
+403,Reflecting Pool,FALSE
+404,"Shinka, the Bloodsoaked Keep",FALSE
+405,"Urborg, Tomb of Yawgmoth",FALSE
+406,Wasteland,FALSE
+407,"Yavimaya, Cradle of Growth",FALSE
+408,Sol Ring,FALSE
+409,Sol Ring,FALSE
+410,Sol Ring,FALSE
+411,Beregond of the Guard,FALSE
+412,Champions of Minas Tirith,FALSE
+413,Field-Tested Frying Pan,FALSE
+414,The Gaffer,FALSE
+415,"Gilraen, Dúnedain Protector",FALSE
+416,Grey Host Reinforcements,FALSE
+417,"Gwaihir, Greatest of the Eagles",FALSE
+418,Lossarnach Captain,FALSE
+419,Of Herbs and Stewed Rabbit,FALSE
+420,Archivist of Gondor,FALSE
+421,Corsairs of Umbar,FALSE
+422,"Denethor, Stone Seer",FALSE
+423,Fealty to the Realm,FALSE
+424,Monstrosity of the Lake,FALSE
+425,Raise the Palisade,FALSE
+426,Subjugate the Hobbits,FALSE
+427,Trap the Trespassers,FALSE
+428,"Gollum, Obsessed Stalker",FALSE
+429,"Lobelia, Defender of Bag End",FALSE
+430,Rapacious Guest,FALSE
+431,"Shelob, Dread Weaver",FALSE
+432,Call for Aid,FALSE
+433,Cavern-Hoard Dragon,FALSE
+434,Gimli of the Glittering Caves,FALSE
+435,Orcish Siegemaster,FALSE
+436,Rampaging War Mammoth,FALSE
+437,"Arwen, Weaver of Hope",FALSE
+438,Assemble the Entmoot,FALSE
+439,Feasting Hobbit,FALSE
+440,Galadhrim Ambush,FALSE
+441,"Haldir, Lórien Lieutenant",FALSE
+442,Legolas Greenleaf,FALSE
+443,Mirkwood Elk,FALSE
+444,Motivated Pony,FALSE
+445,Prize Pig,FALSE
+446,Travel Through Caradhras,FALSE
+447,Windswift Slice,FALSE
+448,"Aragorn, King of Gondor",FALSE
+449,The Balrog of Moria,FALSE
+450,Banquet Guests,FALSE
+451,"Bilbo, Birthday Celebrant",FALSE
+452,"Boromir, Gondor's Hope",FALSE
+453,Círdan the Shipwright,FALSE
+454,Elrond of the White Council,FALSE
+455,"Éomer, King of Rohan",FALSE
+456,"Éowyn, Shieldmaiden",FALSE
+457,Erestor of the Council,FALSE
+458,"Faramir, Steward of Gondor",FALSE
+459,Farmer Cotton,FALSE
+460,Forth Eorlingas!,FALSE
+461,"Frodo, Adventurous Hobbit",FALSE
+462,"Galadriel, Elven-Queen",FALSE
+463,"Gandalf, Westward Voyager",FALSE
+464,"Gríma, Saruman's Footman",FALSE
+465,In the Darkness Bind Them,FALSE
+466,Lidless Gaze,FALSE
+467,Lord of the Nazgûl,FALSE
+468,"Merry, Warden of Isengard",FALSE
+469,Mirkwood Trapper,FALSE
+470,Moria Scavenger,FALSE
+471,Oath of Eorl,FALSE
+472,"Pippin, Warden of Isengard",FALSE
+473,"Radagast, Wizard of Wilds",FALSE
+474,Riders of Rohan,FALSE
+475,Sail into the West,FALSE
+476,"Sam, Loyal Attendant",FALSE
+477,"Saruman, the White Hand",FALSE
+478,"Sauron, Lord of the Rings",FALSE
+479,Song of Eärendil,FALSE
+480,Summons of Saruman,FALSE
+481,Taunt from the Rampart,FALSE
+482,"Too Greedily, Too Deep",FALSE
+483,"Treebeard, Gracious Host",FALSE
+484,Wake the Dragon,FALSE
+485,Crown of Gondor,FALSE
+486,Hithlain Rope,FALSE
+487,Lothlórien Blade,FALSE
+488,Model of Unity,FALSE
+489,Relic of Sauron,FALSE
+490,The Black Gate,FALSE
+491,"Andúril, Narsil Reforged",FALSE
+492,"Aragorn, Hornburg Hero",FALSE
+493,Legolas's Quick Reflexes,FALSE
+494,Gimli's Reckless Might,FALSE
+495,Isengard Unleashed,FALSE
+496,Rohirrim Chargers,FALSE
+497,Arboreal Alliance,FALSE
+498,"Galadriel, Light of Valinor",FALSE
+499,Rally the Galadhrim,FALSE
+500,Galadriel's Dismissal,FALSE
+501,Mists of Lórien,FALSE
+502,Galadhrim Brigade,FALSE
+503,Olórin's Searing Light,FALSE
+504,Sorcerous Squall,FALSE
+505,"Rammas Echor, Ancient Shield",FALSE
+506,Courageous Resolve,FALSE
+507,Gandalf of the Secret Fire,FALSE
+508,Fell Beast's Shriek,FALSE
+509,Call Forth the Tempest,FALSE
+510,Nazgûl Battle-Mace,FALSE
+511,"Witch-king, Sky Scourge",FALSE
+512,Mordor on the March,FALSE
+513,Fell Beast of Mordor,FALSE
+514,"Minas Morgul, Dark Fortress",FALSE
+515,"Kenrith, the Returned King",FALSE
+516,"Ishkanah, Grafwidow",FALSE
+517,"Doran, the Siege Tower",FALSE
+518,Hammerheim,FALSE
+519,Urborg,FALSE
+520,Soul's Attendant,FALSE
+521,Stonehewer Giant,FALSE
+522,Worship,FALSE
+523,Pact of Negation,FALSE
+524,River Kelpie,FALSE
+525,Abyssal Persecutor,FALSE
+526,Diabolic Intent,FALSE
+527,Elvish Harbinger,FALSE
+528,Explore,TRUE
+529,Seasons Past,FALSE
+530,Second Harvest,FALSE
+531,Sylvan Tutor,FALSE
+532,Tempt with Discovery,FALSE
+533,Timber Protector,FALSE
+534,Myriad Landscape,FALSE
+535,"Andúril, Narsil Reforged",FALSE
+536,"Aragorn, Hornburg Hero",FALSE
+537,Legolas's Quick Reflexes,FALSE
+538,Gimli's Reckless Might,FALSE
+539,Isengard Unleashed,FALSE
+540,Rohirrim Chargers,FALSE
+541,Arboreal Alliance,FALSE
+542,"Galadriel, Light of Valinor",FALSE
+543,Rally the Galadhrim,FALSE
+544,Galadriel's Dismissal,FALSE
+545,Mists of Lórien,FALSE
+546,Galadhrim Brigade,FALSE
+547,Olórin's Searing Light,FALSE
+548,Sorcerous Squall,FALSE
+549,"Rammas Echor, Ancient Shield",FALSE
+550,Courageous Resolve,FALSE
+551,Gandalf of the Secret Fire,FALSE
+552,Fell Beast's Shriek,FALSE
+553,Call Forth the Tempest,FALSE
+554,Nazgûl Battle-Mace,FALSE
+555,"Witch-king, Sky Scourge",FALSE
+556,Mordor on the March,FALSE
+557,Fell Beast of Mordor,FALSE
+558,"Minas Morgul, Dark Fortress",FALSE

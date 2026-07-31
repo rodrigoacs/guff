@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fichário Magic</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="header-content">
+        <h1>Lord of the Rings</h1>
+        <div class="dashboard">
+          <div class="stats">
+            <div class="stat-pill">
+              <span class="stat-label">Total</span>
+              <span class="stat-value" id="total-cartas">0</span>
+            </div>
+            <div class="stat-pill">
+              <span class="stat-label">Coletadas</span>
+              <span class="stat-value highlight" id="cartas-coletadas">0</span>
+            </div>
+            <div class="stat-pill">
+              <span class="stat-label">Faltam</span>
+              <span class="stat-value danger" id="cartas-faltantes">0</span>
+            </div>
+          </div>
+          <div class="progress-container">
+            <div class="progress-bar" id="progress-bar"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <div class="controls-section">
+        <input
+          type="text"
+          id="busca"
+          class="search-input"
+          placeholder="Buscar cartas..."
+          autocomplete="off"
+        />
+
+        <div class="filters-scroll">
+          <div class="filters" id="container-filtros">
+            <button class="filter-btn active" data-filter="todas">Todas</button>
+            <button class="filter-btn" data-filter="tenho">Tenho</button>
+            <button class="filter-btn" data-filter="faltam">Faltam</button>
+            <!-- Botões dinâmicos entram aqui -->
+            <button id="btn-exportar-ligamagic" class="filter-btn export-btn">
+              Exportar Faltantes
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="paginacao top-pag">
+        <button id="btn-anterior" class="icon-btn">&lsaquo;</button>
+        <span id="info-pagina" class="page-info">Página 1 de 1</span>
+        <button id="btn-proxima" class="icon-btn">&rsaquo;</button>
+      </div>
+
+      <div class="binder-surface">
+        <div class="fichario-pagina" id="grid-cartas"></div>
+      </div>
+
+      <div class="paginacao bottom-pag">
+        <button id="btn-anterior-bottom" class="icon-btn">&lsaquo;</button>
+        <span id="info-pagina-bottom" class="page-info">Página 1 de 1</span>
+        <button id="btn-proxima-bottom" class="icon-btn">&rsaquo;</button>
+      </div>
+    </main>
+
+    <!-- Modal App-like -->
+    <div id="modal-carta" class="modal">
+      <div class="modal-backdrop"></div>
+      <div class="modal-wrapper">
+        <button class="modal-fechar">&times;</button>
+        <img class="modal-conteudo" id="img-modal" />
+        <div id="legenda-modal" class="modal-legenda"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

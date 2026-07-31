@@ -1,0 +1,834 @@
+Nº,Card,Check
+1,Banish from Edoras,TRUE
+2,The Battle of Bywater,TRUE
+3,Bill the Pony,TRUE
+4,"Boromir, Warden of the Tower",FALSE
+5,Dawn of a New Age,TRUE
+6,Dúnedain Blade,TRUE
+7,Eagles of the North,TRUE
+8,Eastfarthing Farmer,TRUE
+9,East-Mark Cavalier,TRUE
+10,"Éowyn, Lady of Rohan",TRUE
+11,Errand-Rider of Gondor,TRUE
+12,Escape from Orthanc,TRUE
+13,Esquire of the King,TRUE
+14,"Faramir, Field Commander",TRUE
+15,Flowering of the White Tree,FALSE
+16,Fog on the Barrow-Downs,TRUE
+17,Forge Anew,TRUE
+18,"Frodo, Sauron's Bane",TRUE
+19,Gandalf the White,FALSE
+20,Hobbit's Sting,TRUE
+21,"Landroval, Horizon Witness",TRUE
+22,Lost to Legend,TRUE
+23,Nimble Hobbit,TRUE
+24,"Now for Wrath, Now for Ruin!",TRUE
+25,Protector of Gondor,TRUE
+26,Reprieve,TRUE
+27,Rosie Cotton of South Lane,TRUE
+28,Samwise the Stouthearted,TRUE
+29,Second Breakfast,TRUE
+30,Shire Shirriff,TRUE
+31,Slip On the Ring,TRUE
+32,Soldier of the Grey Host,TRUE
+33,Stalwarts of Osgiliath,TRUE
+34,Tale of Tinúviel,TRUE
+35,Took Reaper,TRUE
+36,War of the Last Alliance,TRUE
+37,Westfold Rider,TRUE
+38,You Cannot Pass!,TRUE
+39,Arwen's Gift,TRUE
+40,The Bath Song,TRUE
+41,Bewitching Leechcraft,TRUE
+42,"Bill Ferny, Bree Swindler",TRUE
+43,Birthday Escape,TRUE
+44,Borne Upon a Wind,TRUE
+45,Captain of Umbar,TRUE
+46,Council's Deliberation,TRUE
+47,Deceive the Messenger,TRUE
+48,Dreadful as the Storm,TRUE
+49,"Elrond, Lord of Rivendell",TRUE
+50,"Gandalf, Friend of the Shire",TRUE
+51,Glorious Gale,TRUE
+52,"Goldberry, River-Daughter",TRUE
+53,Grey Havens Navigator,TRUE
+54,Hithlain Knots,TRUE
+55,Horses of the Bruinen,TRUE
+56,Ioreth of the Healing House,TRUE
+57,Isolation at Orthanc,TRUE
+58,Ithilien Kingfisher,TRUE
+59,Knights of Dol Amroth,TRUE
+60,Lórien Revealed,TRUE
+61,Lost Isle Calling,TRUE
+62,"Meneldor, Swift Savior",TRUE
+63,Nimrodel Watcher,TRUE
+64,Pelargir Survivor,TRUE
+65,Press the Enemy,TRUE
+66,Rangers of Ithilien,TRUE
+67,Saruman the White,TRUE
+68,Saruman's Trickery,TRUE
+69,Scroll of Isildur,TRUE
+70,Soothing of Sméagol,TRUE
+71,Stern Scolding,TRUE
+72,Storm of Saruman,FALSE
+73,Surrounded by Orcs,TRUE
+74,Treason of Isengard,TRUE
+75,The Watcher in the Water,TRUE
+76,Willow-Wind,TRUE
+77,Bitter Downfall,TRUE
+78,The Black Breath,TRUE
+79,Call of the Ring,FALSE
+80,Cirith Ungol Patrol,TRUE
+81,Claim the Precious,TRUE
+82,Dunland Crebain,TRUE
+83,Easterling Vanguard,TRUE
+84,"Gollum, Patient Plotter",TRUE
+85,Gollum's Bite,TRUE
+86,Gorbag of Minas Morgul,TRUE
+87,"Gothmog, Morgul Lieutenant",TRUE
+88,Gríma Wormtongue,TRUE
+89,"Grond, the Gatebreaker",TRUE
+90,Haunt of the Dead Marshes,TRUE
+91,Isildur's Fateful Strike,TRUE
+92,Lash of the Balrog,TRUE
+93,Lobelia Sackville-Baggins,TRUE
+94,March from the Black Gate,TRUE
+95,Mirkwood Bats,TRUE
+96,Mordor Muster,TRUE
+97,Mordor Trebuchet,TRUE
+98,Morgul-Knife Wound,TRUE
+99,Nasty End,TRUE
+100,Nazgûl,FALSE
+101,Oath of the Grey Host,TRUE
+102,One Ring to Rule Them All,TRUE
+103,Orcish Bowmasters,FALSE
+104,Orcish Medicine,TRUE
+105,Sam's Desperate Rescue,TRUE
+106,"Sauron, the Necromancer",TRUE
+107,Shadow of the Enemy,TRUE
+108,Shelob's Ambush,TRUE
+109,Snarling Warg,TRUE
+110,The Torment of Gollum,TRUE
+111,Troll of Khazad-dûm,TRUE
+112,Uruk-hai Berserker,TRUE
+113,Voracious Fell Beast,TRUE
+114,Witch-king of Angmar,FALSE
+115,Battle-Scarred Goblin,TRUE
+116,Book of Mazarbul,TRUE
+117,Breaking of the Fellowship,TRUE
+118,Cast into the Fire,TRUE
+119,Display of Power,TRUE
+120,"Éomer, Marshal of Rohan",TRUE
+121,Éomer of the Riddermark,TRUE
+122,Erebor Flamesmith,TRUE
+123,"Erkenbrand, Lord of Westfold",TRUE
+124,Fall of Cair Andros,TRUE
+125,"Fear, Fire, Foes!",TRUE
+126,Fiery Inscription,TRUE
+127,Fire of Orthanc,TRUE
+128,Foray of Orcs,TRUE
+129,"Gimli, Counter of Kills",TRUE
+130,Gimli's Axe,TRUE
+131,Gimli's Fury,TRUE
+132,"Glóin, Dwarf Emissary",TRUE
+133,Goblin Fireleaper,TRUE
+134,"Grishnákh, Brash Instigator",TRUE
+135,Haradrim Spearmaster,TRUE
+136,Hew the Entwood,TRUE
+137,Improvised Club,TRUE
+138,Moria Marauder,TRUE
+139,Oliphaunt,TRUE
+140,Olog-hai Crusher,TRUE
+141,Quarrel's End,TRUE
+142,Rally at the Hornburg,TRUE
+143,Ranger's Firebrand,TRUE
+144,Relentless Rohirrim,TRUE
+145,Rising of the Day,TRUE
+146,Rohirrim Lancer,TRUE
+147,Rush the Room,TRUE
+148,Smite the Deathless,TRUE
+149,Spiteful Banditry,FALSE
+150,Swarming of Moria,TRUE
+151,There and Back Again,TRUE
+152,Warbeast of Gorgoroth,TRUE
+153,Bag End Porter,TRUE
+154,Bombadil's Song,TRUE
+155,Brandywine Farmer,TRUE
+156,Celeborn the Wise,TRUE
+157,Chance-Met Elves,TRUE
+158,Delighted Halfling,TRUE
+159,Dúnedain Rangers,TRUE
+160,Elven Chorus,FALSE
+161,Elven Farsight,TRUE
+162,Enraged Huorn,TRUE
+163,Entish Restoration,FALSE
+164,Ent's Fury,TRUE
+165,Fall of Gil-galad,TRUE
+166,"Fangorn, Tree Shepherd",TRUE
+167,Galadhrim Bow,TRUE
+168,Galadhrim Guide,TRUE
+169,Generous Ent,TRUE
+170,Gift of Strands,TRUE
+171,"Glorfindel, Dauntless Rescuer",TRUE
+172,Last March of the Ents,FALSE
+173,"Legolas, Master Archer",TRUE
+174,Long List of the Ents,TRUE
+175,Lothlórien Lookout,TRUE
+176,Many Partings,TRUE
+177,Meriadoc Brandybuck,TRUE
+178,Mirkwood Spider,TRUE
+179,Mirrormere Guardian,TRUE
+180,Mushroom Watchdogs,TRUE
+181,Peregrin Took,TRUE
+182,Pippin's Bravery,TRUE
+183,"Quickbeam, Upstart Ent",TRUE
+184,Radagast the Brown,TRUE
+185,Revive the Shire,TRUE
+186,The Ring Goes South,TRUE
+187,Shortcut to Mushrooms,TRUE
+188,Shower of Arrows,TRUE
+189,Stew the Coneys,TRUE
+190,Wose Pathfinder,TRUE
+191,"Aragorn, Company Leader",TRUE
+192,"Aragorn, the Uniter",FALSE
+193,"Arwen, Mortal Queen",FALSE
+194,Arwen Undómiel,TRUE
+195,"The Balrog, Durin's Bane",TRUE
+196,"Bilbo, Retired Burglar",TRUE
+197,"Butterbur, Bree Innkeeper",TRUE
+198,"Denethor, Ruling Steward",TRUE
+199,Doors of Durin,TRUE
+200,"Elrond, Master of Healing",TRUE
+201,"Éowyn, Fearless Knight",FALSE
+202,"Faramir, Prince of Ithilien",TRUE
+203,Flame of Anor,FALSE
+204,Friendly Rivalry,TRUE
+205,Frodo Baggins,TRUE
+206,Galadriel of Lothlórien,TRUE
+207,Gandalf the Grey,TRUE
+208,Gandalf's Sanction,TRUE
+209,"Gimli, Mournful Avenger",TRUE
+210,Gwaihir the Windlord,TRUE
+211,King of the Oathbreakers,TRUE
+212,"Legolas, Counter of Kills",TRUE
+213,"Lotho, Corrupt Shirriff",TRUE
+214,"Mauhúr, Uruk-hai Captain",TRUE
+215,"Merry, Esquire of Rohan",TRUE
+216,The Mouth of Sauron,TRUE
+217,Old Man Willow,TRUE
+218,"Pippin, Guard of the Citadel",TRUE
+219,Prince Imrahil the Fair,TRUE
+220,Ringsight,TRUE
+221,Rise of the Witch-king,TRUE
+222,Samwise Gamgee,FALSE
+223,Saruman of Many Colors,TRUE
+224,"Sauron, the Dark Lord",FALSE
+225,Sauron's Ransom,TRUE
+226,Shadow Summoning,TRUE
+227,"Shadowfax, Lord of Horses",TRUE
+228,"Shagrat, Loot Bearer",TRUE
+229,"Sharkey, Tyrant of the Shire",TRUE
+230,"Shelob, Child of Ungoliant",TRUE
+231,"Sméagol, Helpful Guide",FALSE
+232,"Strider, Ranger of the North",TRUE
+233,"Théoden, King of Rohan",TRUE
+234,Tom Bombadil,TRUE
+235,Uglúk of the White Hand,TRUE
+236,"Andúril, Flame of the West",FALSE
+237,Barrow-Blade,TRUE
+238,Ent-Draught Basin,TRUE
+239,Glamdring,TRUE
+240,Horn of Gondor,FALSE
+241,Horn of the Mark,TRUE
+242,Inherited Envelope,TRUE
+243,Lembas,TRUE
+244,Mirror of Galadriel,TRUE
+245,Mithril Coat,FALSE
+246,The One Ring,FALSE
+247,Palantír of Orthanc,FALSE
+248,Phial of Galadriel,TRUE
+249,Shire Scarecrow,TRUE
+250,"Sting, the Glinting Dagger",FALSE
+251,Stone of Erech,TRUE
+252,Wizard's Rockets,TRUE
+253,Barad-dûr,TRUE
+254,Great Hall of the Citadel,TRUE
+255,The Grey Havens,TRUE
+256,Minas Tirith,FALSE
+257,Mines of Moria,TRUE
+258,Mount Doom,FALSE
+259,Rivendell,TRUE
+260,The Shire,TRUE
+261,Shire Terrace,TRUE
+262,Plains,TRUE
+263,Plains,TRUE
+264,Island,TRUE
+265,Island,TRUE
+266,Swamp,TRUE
+267,Swamp,TRUE
+268,Mountain,TRUE
+269,Mountain,TRUE
+270,Forest,TRUE
+271,Forest,TRUE
+272,Plains,TRUE
+273,Plains,TRUE
+274,Island,TRUE
+275,Island,TRUE
+276,Swamp,TRUE
+277,Swamp,TRUE
+278,Mountain,TRUE
+279,Mountain,TRUE
+280,Forest,TRUE
+281,Forest,TRUE
+282,"Saradoc, Master of Buckland",TRUE
+283,Elvish Mariner,TRUE
+284,Ringwraiths,TRUE
+285,Assault on Osgiliath,FALSE
+286,Elanor Gardner,FALSE
+287,"Aragorn and Arwen, Wed",TRUE
+288,"Sauron, the Lidless Eye",TRUE
+289,"Frodo, Determined Hero",TRUE
+290,"Gandalf, White Rider",TRUE
+291,Knight of the Keep,TRUE
+292,"Gollum, Scheming Guide",TRUE
+293,"Witch-king, Bringer of Ruin",TRUE
+294,Fires of Mount Doom,TRUE
+295,Goblin Assailant,TRUE
+296,"Galadriel, Gift-Giver",TRUE
+297,"The Balrog, Flame of Udûn",TRUE
+298,Bilbo's Ring,TRUE
+299,Gandalf the White,FALSE
+300,Saruman of Many Colors,FALSE
+301,"Sauron, the Dark Lord",FALSE
+302,"Boromir, Warden of the Tower",TRUE
+303,"Faramir, Field Commander",TRUE
+304,"Frodo, Sauron's Bane",TRUE
+305,Gandalf the White,FALSE
+306,Samwise the Stouthearted,TRUE
+307,"Elrond, Lord of Rivendell",TRUE
+308,"Gandalf, Friend of the Shire",TRUE
+309,"Gollum, Patient Plotter",TRUE
+310,"Sauron, the Necromancer",TRUE
+311,Witch-king of Angmar,FALSE
+312,"Gimli, Counter of Kills",TRUE
+313,"Legolas, Master Archer",TRUE
+314,Meriadoc Brandybuck,TRUE
+315,Peregrin Took,TRUE
+316,"Aragorn, Company Leader",TRUE
+317,"Aragorn, the Uniter",FALSE
+318,"Elrond, Master of Healing",TRUE
+319,"Faramir, Prince of Ithilien",TRUE
+320,Frodo Baggins,TRUE
+321,Galadriel of Lothlórien,TRUE
+322,Gandalf the Grey,TRUE
+323,"Gimli, Mournful Avenger",TRUE
+324,"Legolas, Counter of Kills",TRUE
+325,"Merry, Esquire of Rohan",TRUE
+326,"Pippin, Guard of the Citadel",TRUE
+327,Samwise Gamgee,FALSE
+328,Saruman of Many Colors,TRUE
+329,"Sauron, the Dark Lord",TRUE
+330,"Sméagol, Helpful Guide",TRUE
+331,Tom Bombadil,TRUE
+332,Nazgûl,FALSE
+333,Nazgûl,TRUE
+334,Nazgûl,TRUE
+335,Nazgûl,FALSE
+336,Nazgûl,FALSE
+337,Nazgûl,FALSE
+338,Nazgûl,FALSE
+339,Nazgûl,FALSE
+340,Barad-dûr,TRUE
+341,Minas Tirith,FALSE
+342,Mines of Moria,TRUE
+343,Mount Doom,FALSE
+344,Rivendell,TRUE
+345,The Shire,TRUE
+346,The Battle of Bywater,FALSE
+347,Dawn of a New Age,FALSE
+348,Flowering of the White Tree,FALSE
+349,Forge Anew,FALSE
+350,Borne Upon a Wind,FALSE
+351,"Goldberry, River-Daughter",FALSE
+352,Press the Enemy,FALSE
+353,Rangers of Ithilien,FALSE
+354,The Watcher in the Water,FALSE
+355,Call of the Ring,FALSE
+356,Isildur's Fateful Strike,FALSE
+357,Lobelia Sackville-Baggins,FALSE
+358,Display of Power,FALSE
+359,Fall of Cair Andros,FALSE
+360,"Glóin, Dwarf Emissary",FALSE
+361,Hew the Entwood,FALSE
+362,Moria Marauder,TRUE
+363,Delighted Halfling,FALSE
+364,Elven Chorus,FALSE
+365,Radagast the Brown,FALSE
+366,The Ring Goes South,FALSE
+367,"Arwen, Mortal Queen",FALSE
+368,Doors of Durin,TRUE
+369,King of the Oathbreakers,TRUE
+370,"Lotho, Corrupt Shirriff",FALSE
+371,Sauron's Ransom,FALSE
+372,"Shagrat, Loot Bearer",TRUE
+373,"Sharkey, Tyrant of the Shire",FALSE
+374,"Shelob, Child of Ungoliant",FALSE
+375,"Andúril, Flame of the West",FALSE
+376,Glamdring,FALSE
+377,Horn of Gondor,FALSE
+378,Horn of the Mark,FALSE
+379,Mithril Coat,FALSE
+380,The One Ring,FALSE
+381,Palantír of Orthanc,FALSE
+382,Phial of Galadriel,FALSE
+383,"Saradoc, Master of Buckland",FALSE
+384,Elvish Mariner,FALSE
+385,Ringwraiths,FALSE
+386,Assault on Osgiliath,FALSE
+387,Elanor Gardner,FALSE
+388,"Frodo, Determined Hero",FALSE
+389,"Gandalf, White Rider",FALSE
+390,"Gollum, Scheming Guide",FALSE
+391,"Witch-king, Bringer of Ruin",FALSE
+392,Fires of Mount Doom,FALSE
+393,"Galadriel, Gift-Giver",FALSE
+394,"Aragorn and Arwen, Wed",FALSE
+395,"The Balrog, Flame of Udûn",FALSE
+396,"Sauron, the Lidless Eye",FALSE
+397,Bilbo's Ring,FALSE
+398,Trailblazer's Boots,TRUE
+399,Lobelia Sackville-Baggins,FALSE
+400,Wizard's Rockets,FALSE
+401,"Gandalf, Friend of the Shire",TRUE
+402,Delighted Halfling,FALSE
+403,"Bilbo, Retired Burglar",TRUE
+404,Frodo Baggins,TRUE
+405,"The Balrog, Durin's Bane",TRUE
+406,Flame of Anor,FALSE
+407,"Boromir, Warden of the Tower",FALSE
+408,Lash of the Balrog,TRUE
+409,"Sting, the Glinting Dagger",FALSE
+410,"Aragorn, Company Leader",TRUE
+411,Dunland Crebain,TRUE
+412,Saruman of Many Colors,FALSE
+413,Storm of Saruman,TRUE
+414,Pippin's Bravery,TRUE
+415,"Fangorn, Tree Shepherd",FALSE
+416,Nasty End,TRUE
+417,Foray of Orcs,TRUE
+418,Last March of the Ents,FALSE
+419,"Quickbeam, Upstart Ent",TRUE
+420,Minas Tirith,FALSE
+421,Mirkwood Bats,TRUE
+422,Voracious Fell Beast,TRUE
+423,Witch-king of Angmar,FALSE
+424,Shadow of the Enemy,FALSE
+425,Barad-dûr,TRUE
+426,Oliphaunt,TRUE
+427,Rising of the Day,TRUE
+428,"Éomer, Marshal of Rohan",FALSE
+429,"Gothmog, Morgul Lieutenant",TRUE
+430,"Éowyn, Fearless Knight",FALSE
+431,Prince Imrahil the Fair,TRUE
+432,Knights of Dol Amroth,TRUE
+433,Orcish Bowmasters,FALSE
+434,"Aragorn, the Uniter",FALSE
+435,"Legolas, Master Archer",TRUE
+436,"Gimli, Mournful Avenger",FALSE
+437,"Merry, Esquire of Rohan",TRUE
+438,"Pippin, Guard of the Citadel",FALSE
+439,Spiteful Banditry,FALSE
+440,Rosie Cotton of South Lane,TRUE
+441,Shire Shirriff,FALSE
+442,Gandalf the White,FALSE
+443,The Grey Havens,TRUE
+444,Lost Isle Calling,TRUE
+445,Many Partings,TRUE
+446,Galadriel of Lothlórien,FALSE
+447,"Elrond, Master of Healing",FALSE
+448,"Frodo, Sauron's Bane",FALSE
+449,Samwise the Stouthearted,FALSE
+450,"Gollum, Patient Plotter",FALSE
+451,The One Ring,FALSE
+452,Banish from Edoras,TRUE
+453,The Battle of Bywater,FALSE
+454,Bill the Pony,TRUE
+455,"Boromir, Warden of the Tower",FALSE
+456,Dawn of a New Age,FALSE
+457,Dúnedain Blade,TRUE
+458,Eagles of the North,FALSE
+459,Eastfarthing Farmer,FALSE
+460,East-Mark Cavalier,TRUE
+461,"Éowyn, Lady of Rohan",TRUE
+462,Errand-Rider of Gondor,TRUE
+463,Escape from Orthanc,TRUE
+464,Esquire of the King,TRUE
+465,"Faramir, Field Commander",TRUE
+466,Flowering of the White Tree,FALSE
+467,Fog on the Barrow-Downs,TRUE
+468,Forge Anew,FALSE
+469,"Frodo, Sauron's Bane",FALSE
+470,Gandalf the White,FALSE
+471,Hobbit's Sting,TRUE
+472,"Landroval, Horizon Witness",TRUE
+473,Lost to Legend,TRUE
+474,Nimble Hobbit,FALSE
+475,"Now for Wrath, Now for Ruin!",TRUE
+476,Protector of Gondor,TRUE
+477,Reprieve,FALSE
+478,Rosie Cotton of South Lane,FALSE
+479,Samwise the Stouthearted,TRUE
+480,Second Breakfast,TRUE
+481,Shire Shirriff,FALSE
+482,Slip On the Ring,FALSE
+483,Soldier of the Grey Host,TRUE
+484,Stalwarts of Osgiliath,FALSE
+485,Tale of Tinúviel,TRUE
+486,Took Reaper,FALSE
+487,War of the Last Alliance,FALSE
+488,Westfold Rider,TRUE
+489,You Cannot Pass!,TRUE
+490,Arwen's Gift,TRUE
+491,The Bath Song,FALSE
+492,Bewitching Leechcraft,TRUE
+493,"Bill Ferny, Bree Swindler",TRUE
+494,Birthday Escape,FALSE
+495,Borne Upon a Wind,FALSE
+496,Captain of Umbar,TRUE
+497,Council's Deliberation,TRUE
+498,Deceive the Messenger,TRUE
+499,Dreadful as the Storm,TRUE
+500,"Elrond, Lord of Rivendell",FALSE
+501,"Gandalf, Friend of the Shire",FALSE
+502,Glorious Gale,FALSE
+503,"Goldberry, River-Daughter",FALSE
+504,Grey Havens Navigator,TRUE
+505,Hithlain Knots,TRUE
+506,Horses of the Bruinen,FALSE
+507,Ioreth of the Healing House,FALSE
+508,Isolation at Orthanc,TRUE
+509,Ithilien Kingfisher,TRUE
+510,Knights of Dol Amroth,TRUE
+511,Lórien Revealed,FALSE
+512,Lost Isle Calling,TRUE
+513,"Meneldor, Swift Savior",TRUE
+514,Nimrodel Watcher,TRUE
+515,Pelargir Survivor,TRUE
+516,Press the Enemy,FALSE
+517,Rangers of Ithilien,TRUE
+518,Saruman the White,TRUE
+519,Saruman's Trickery,FALSE
+520,Scroll of Isildur,FALSE
+521,Soothing of Sméagol,TRUE
+522,Stern Scolding,FALSE
+523,Storm of Saruman,FALSE
+524,Surrounded by Orcs,FALSE
+525,Treason of Isengard,TRUE
+526,The Watcher in the Water,FALSE
+527,Willow-Wind,TRUE
+528,Bitter Downfall,TRUE
+529,The Black Breath,FALSE
+530,Call of the Ring,FALSE
+531,Cirith Ungol Patrol,TRUE
+532,Claim the Precious,TRUE
+533,Dunland Crebain,FALSE
+534,Easterling Vanguard,TRUE
+535,"Gollum, Patient Plotter",TRUE
+536,Gollum's Bite,FALSE
+537,Gorbag of Minas Morgul,TRUE
+538,"Gothmog, Morgul Lieutenant",TRUE
+539,Gríma Wormtongue,TRUE
+540,"Grond, the Gatebreaker",TRUE
+541,Haunt of the Dead Marshes,FALSE
+542,Isildur's Fateful Strike,FALSE
+543,Lash of the Balrog,TRUE
+544,Lobelia Sackville-Baggins,FALSE
+545,March from the Black Gate,TRUE
+546,Mirkwood Bats,FALSE
+547,Mordor Muster,FALSE
+548,Mordor Trebuchet,TRUE
+549,Morgul-Knife Wound,TRUE
+550,Nasty End,FALSE
+551,Nazgûl,FALSE
+552,Oath of the Grey Host,FALSE
+553,One Ring to Rule Them All,FALSE
+554,Orcish Bowmasters,FALSE
+555,Orcish Medicine,FALSE
+556,Sam's Desperate Rescue,FALSE
+557,"Sauron, the Necromancer",FALSE
+558,Shadow of the Enemy,FALSE
+559,Shelob's Ambush,TRUE
+560,Snarling Warg,TRUE
+561,The Torment of Gollum,FALSE
+562,Troll of Khazad-dûm,FALSE
+563,Uruk-hai Berserker,FALSE
+564,Voracious Fell Beast,TRUE
+565,Witch-king of Angmar,FALSE
+566,Battle-Scarred Goblin,FALSE
+567,Book of Mazarbul,FALSE
+568,Breaking of the Fellowship,TRUE
+569,Cast into the Fire,FALSE
+570,Display of Power,FALSE
+571,"Éomer, Marshal of Rohan",FALSE
+572,Éomer of the Riddermark,TRUE
+573,Erebor Flamesmith,FALSE
+574,"Erkenbrand, Lord of Westfold",FALSE
+575,Fall of Cair Andros,FALSE
+576,"Fear, Fire, Foes!",TRUE
+577,Fiery Inscription,FALSE
+578,Fire of Orthanc,FALSE
+579,Foray of Orcs,TRUE
+580,"Gimli, Counter of Kills",FALSE
+581,Gimli's Axe,TRUE
+582,Gimli's Fury,TRUE
+583,"Glóin, Dwarf Emissary",FALSE
+584,Goblin Fireleaper,TRUE
+585,"Grishnákh, Brash Instigator",TRUE
+586,Haradrim Spearmaster,TRUE
+587,Hew the Entwood,FALSE
+588,Improvised Club,TRUE
+589,Moria Marauder,FALSE
+590,Oliphaunt,FALSE
+591,Olog-hai Crusher,TRUE
+592,Quarrel's End,TRUE
+593,Rally at the Hornburg,FALSE
+594,Ranger's Firebrand,TRUE
+595,Relentless Rohirrim,TRUE
+596,Rising of the Day,FALSE
+597,Rohirrim Lancer,TRUE
+598,Rush the Room,TRUE
+599,Smite the Deathless,TRUE
+600,Spiteful Banditry,FALSE
+601,Swarming of Moria,TRUE
+602,There and Back Again,FALSE
+603,Warbeast of Gorgoroth,TRUE
+604,Bag End Porter,TRUE
+605,Bombadil's Song,TRUE
+606,Brandywine Farmer,TRUE
+607,Celeborn the Wise,TRUE
+608,Chance-Met Elves,TRUE
+609,Delighted Halfling,FALSE
+610,Dúnedain Rangers,TRUE
+611,Elven Chorus,FALSE
+612,Elven Farsight,FALSE
+613,Enraged Huorn,TRUE
+614,Entish Restoration,FALSE
+615,Ent's Fury,TRUE
+616,Fall of Gil-galad,FALSE
+617,"Fangorn, Tree Shepherd",FALSE
+618,Galadhrim Bow,TRUE
+619,Galadhrim Guide,TRUE
+620,Generous Ent,FALSE
+621,Gift of Strands,TRUE
+622,"Glorfindel, Dauntless Rescuer",TRUE
+623,Last March of the Ents,FALSE
+624,"Legolas, Master Archer",FALSE
+625,Long List of the Ents,TRUE
+626,Lothlórien Lookout,TRUE
+627,Many Partings,TRUE
+628,Meriadoc Brandybuck,TRUE
+629,Mirkwood Spider,TRUE
+630,Mirrormere Guardian,TRUE
+631,Mushroom Watchdogs,TRUE
+632,Peregrin Took,FALSE
+633,Pippin's Bravery,TRUE
+634,"Quickbeam, Upstart Ent",TRUE
+635,Radagast the Brown,FALSE
+636,Revive the Shire,FALSE
+637,The Ring Goes South,FALSE
+638,Shortcut to Mushrooms,TRUE
+639,Shower of Arrows,TRUE
+640,Stew the Coneys,TRUE
+641,Wose Pathfinder,FALSE
+642,"Aragorn, Company Leader",FALSE
+643,"Aragorn, the Uniter",FALSE
+644,"Arwen, Mortal Queen",FALSE
+645,Arwen Undómiel,TRUE
+646,"The Balrog, Durin's Bane",FALSE
+647,"Bilbo, Retired Burglar",TRUE
+648,"Butterbur, Bree Innkeeper",TRUE
+649,"Denethor, Ruling Steward",TRUE
+650,Doors of Durin,FALSE
+651,"Elrond, Master of Healing",FALSE
+652,"Éowyn, Fearless Knight",FALSE
+653,"Faramir, Prince of Ithilien",FALSE
+654,Flame of Anor,FALSE
+655,Friendly Rivalry,TRUE
+656,Frodo Baggins,TRUE
+657,Galadriel of Lothlórien,FALSE
+658,Gandalf the Grey,FALSE
+659,Gandalf's Sanction,TRUE
+660,"Gimli, Mournful Avenger",FALSE
+661,Gwaihir the Windlord,TRUE
+662,King of the Oathbreakers,TRUE
+663,"Legolas, Counter of Kills",TRUE
+664,"Lotho, Corrupt Shirriff",FALSE
+665,"Mauhúr, Uruk-hai Captain",TRUE
+666,"Merry, Esquire of Rohan",FALSE
+667,The Mouth of Sauron,FALSE
+668,Old Man Willow,TRUE
+669,"Pippin, Guard of the Citadel",FALSE
+670,Prince Imrahil the Fair,TRUE
+671,Ringsight,FALSE
+672,Rise of the Witch-king,FALSE
+673,Samwise Gamgee,FALSE
+674,Saruman of Many Colors,FALSE
+675,"Sauron, the Dark Lord",FALSE
+676,Sauron's Ransom,FALSE
+677,Shadow Summoning,TRUE
+678,"Shadowfax, Lord of Horses",FALSE
+679,"Shagrat, Loot Bearer",FALSE
+680,"Sharkey, Tyrant of the Shire",TRUE
+681,"Shelob, Child of Ungoliant",FALSE
+682,"Sméagol, Helpful Guide",FALSE
+683,"Strider, Ranger of the North",TRUE
+684,"Théoden, King of Rohan",TRUE
+685,Tom Bombadil,FALSE
+686,Uglúk of the White Hand,TRUE
+687,"Andúril, Flame of the West",FALSE
+688,Barrow-Blade,TRUE
+689,Ent-Draught Basin,TRUE
+690,Glamdring,FALSE
+691,Horn of Gondor,FALSE
+692,Horn of the Mark,FALSE
+693,Inherited Envelope,TRUE
+694,Lembas,FALSE
+695,Mirror of Galadriel,TRUE
+696,Mithril Coat,FALSE
+697,The One Ring,FALSE
+698,Palantír of Orthanc,FALSE
+699,Phial of Galadriel,FALSE
+700,Shire Scarecrow,TRUE
+701,"Sting, the Glinting Dagger",FALSE
+702,Stone of Erech,FALSE
+703,Wizard's Rockets,FALSE
+704,Barad-dûr,FALSE
+705,Great Hall of the Citadel,FALSE
+706,The Grey Havens,TRUE
+707,Minas Tirith,FALSE
+708,Mines of Moria,FALSE
+709,Mount Doom,FALSE
+710,Rivendell,FALSE
+711,The Shire,FALSE
+712,Shire Terrace,FALSE
+713,Plains,FALSE
+714,Plains,FALSE
+715,Island,FALSE
+716,Island,FALSE
+717,Swamp,FALSE
+718,Swamp,FALSE
+719,Mountain,FALSE
+720,Mountain,FALSE
+721,Forest,FALSE
+722,Forest,FALSE
+723,Nazgûl,FALSE
+724,Nazgûl,FALSE
+725,Nazgûl,FALSE
+726,Nazgûl,FALSE
+727,Nazgûl,FALSE
+728,Nazgûl,FALSE
+729,Nazgûl,FALSE
+730,Nazgûl,FALSE
+731,Dawn of a New Age,FALSE
+732,Gandalf the White,FALSE
+733,Storm of Saruman,FALSE
+734,The Watcher in the Water,FALSE
+735,Shadow of the Enemy,FALSE
+736,Witch-king of Angmar,FALSE
+737,Hew the Entwood,FALSE
+738,Spiteful Banditry,FALSE
+739,Last March of the Ents,FALSE
+740,Radagast the Brown,FALSE
+741,"Aragorn, the Uniter",FALSE
+742,"Arwen, Mortal Queen",FALSE
+743,Saruman of Many Colors,FALSE
+744,"Sauron, the Dark Lord",FALSE
+745,Tom Bombadil,FALSE
+746,"Andúril, Flame of the West",FALSE
+747,Glamdring,FALSE
+748,The One Ring,FALSE
+749,Palantír of Orthanc,FALSE
+750,Mount Doom,FALSE
+751,Barad-dûr,FALSE
+752,Minas Tirith,FALSE
+753,Mines of Moria,FALSE
+754,Mount Doom,FALSE
+755,Rivendell,FALSE
+756,The Shire,FALSE
+757,The Battle of Bywater,FALSE
+758,Dawn of a New Age,FALSE
+759,Flowering of the White Tree,FALSE
+760,Forge Anew,FALSE
+761,Borne Upon a Wind,FALSE
+762,"Goldberry, River-Daughter",FALSE
+763,Press the Enemy,FALSE
+764,Rangers of Ithilien,FALSE
+765,The Watcher in the Water,FALSE
+766,Call of the Ring,FALSE
+767,Isildur's Fateful Strike,FALSE
+768,Lobelia Sackville-Baggins,FALSE
+769,Display of Power,TRUE
+770,Fall of Cair Andros,FALSE
+771,"Glóin, Dwarf Emissary",FALSE
+772,Hew the Entwood,FALSE
+773,Moria Marauder,FALSE
+774,Delighted Halfling,FALSE
+775,Elven Chorus,FALSE
+776,Radagast the Brown,FALSE
+777,The Ring Goes South,FALSE
+778,"Arwen, Mortal Queen",FALSE
+779,Doors of Durin,FALSE
+780,King of the Oathbreakers,TRUE
+781,"Lotho, Corrupt Shirriff",FALSE
+782,Sauron's Ransom,FALSE
+783,"Shagrat, Loot Bearer",FALSE
+784,"Sharkey, Tyrant of the Shire",TRUE
+785,"Shelob, Child of Ungoliant",FALSE
+786,"Andúril, Flame of the West",FALSE
+787,Glamdring,FALSE
+788,Horn of Gondor,FALSE
+789,Horn of the Mark,FALSE
+790,Mithril Coat,FALSE
+791,The One Ring,FALSE
+792,Palantír of Orthanc,FALSE
+793,Phial of Galadriel,FALSE
+794,"Boromir, Warden of the Tower",FALSE
+795,"Faramir, Field Commander",FALSE
+796,"Frodo, Sauron's Bane",FALSE
+797,Gandalf the White,FALSE
+798,Samwise the Stouthearted,FALSE
+799,"Elrond, Lord of Rivendell",FALSE
+800,"Gandalf, Friend of the Shire",FALSE
+801,"Gollum, Patient Plotter",FALSE
+802,"Sauron, the Necromancer",FALSE
+803,Witch-king of Angmar,FALSE
+804,"Gimli, Counter of Kills",FALSE
+805,"Legolas, Master Archer",FALSE
+806,Meriadoc Brandybuck,FALSE
+807,Peregrin Took,FALSE
+808,"Aragorn, Company Leader",FALSE
+809,"Aragorn, the Uniter",FALSE
+810,"Elrond, Master of Healing",FALSE
+811,"Faramir, Prince of Ithilien",FALSE
+812,Frodo Baggins,FALSE
+813,Galadriel of Lothlórien,FALSE
+814,Gandalf the Grey,FALSE
+815,"Gimli, Mournful Avenger",FALSE
+816,"Legolas, Counter of Kills",FALSE
+817,"Merry, Esquire of Rohan",FALSE
+818,"Pippin, Guard of the Citadel",FALSE
+819,Samwise Gamgee,FALSE
+820,Saruman of Many Colors,FALSE
+821,"Sauron, the Dark Lord",FALSE
+822,"Sméagol, Helpful Guide",FALSE
+823,Tom Bombadil,FALSE
+824,Eagle of Deliverance,FALSE
+825,Minas Tirith Garrison,FALSE
+826,Warg Rider,FALSE
+827,Riders of the Mark,FALSE
+828,Mirkwood Channeler,FALSE
+829,Eagle of Deliverance,FALSE
+830,Minas Tirith Garrison,FALSE
+831,Warg Rider,FALSE
+832,Riders of the Mark,FALSE
+833,Mirkwood Channeler,FALSE
