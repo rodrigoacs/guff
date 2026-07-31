@@ -1,0 +1,18 @@
+[
+  {
+    "slug": "ltr-ltc",
+    "nome": "O Senhor dos Anéis (LTR/LTC)",
+    "edicoesBase": [
+      "LTR",
+      "LTC"
+    ]
+  },
+  {
+    "slug": "hobbit",
+    "nome": "O Hobbit (HOB/HOC)",
+    "edicoesBase": [
+      "HOB",
+      "HOC"
+    ]
+  }
+]

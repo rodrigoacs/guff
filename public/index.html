@@ -3,15 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fichário Magic</title>
+    <title>Guff — Coleção de Magic</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header class="navbar">
       <div class="header-content">
-        <h1>Lord of the Rings</h1>
+        <select id="seletor-colecao" class="colecao-select" aria-label="Escolher coleção">
+          <option value="">Carregando coleções...</option>
+        </select>
+
+        <h1 id="titulo-colecao">Guff</h1>
+
         <div class="dashboard">
-          <div class="stats">
+          <div class="stats" aria-live="polite">
             <div class="stat-pill">
               <span class="stat-label">Total</span>
               <span class="stat-value" id="total-cartas">0</span>
@@ -39,6 +45,7 @@
           id="busca"
           class="search-input"
           placeholder="Buscar cartas..."
+          aria-label="Buscar cartas"
           autocomplete="off"
         />
 
@@ -56,9 +63,9 @@
       </div>
 
       <div class="paginacao top-pag">
-        <button id="btn-anterior" class="icon-btn">&lsaquo;</button>
+        <button id="btn-anterior" class="icon-btn" aria-label="Página anterior">&lsaquo;</button>
         <span id="info-pagina" class="page-info">Página 1 de 1</span>
-        <button id="btn-proxima" class="icon-btn">&rsaquo;</button>
+        <button id="btn-proxima" class="icon-btn" aria-label="Próxima página">&rsaquo;</button>
       </div>
 
       <div class="binder-surface">
@@ -66,18 +73,22 @@
       </div>
 
       <div class="paginacao bottom-pag">
-        <button id="btn-anterior-bottom" class="icon-btn">&lsaquo;</button>
+        <button id="btn-anterior-bottom" class="icon-btn" aria-label="Página anterior">
+          &lsaquo;
+        </button>
         <span id="info-pagina-bottom" class="page-info">Página 1 de 1</span>
-        <button id="btn-proxima-bottom" class="icon-btn">&rsaquo;</button>
+        <button id="btn-proxima-bottom" class="icon-btn" aria-label="Próxima página">
+          &rsaquo;
+        </button>
       </div>
     </main>
 
     <!-- Modal App-like -->
-    <div id="modal-carta" class="modal">
+    <div id="modal-carta" class="modal" role="dialog" aria-modal="true" aria-label="Carta ampliada">
       <div class="modal-backdrop"></div>
       <div class="modal-wrapper">
-        <button class="modal-fechar">&times;</button>
-        <img class="modal-conteudo" id="img-modal" />
+        <button class="modal-fechar" aria-label="Fechar">&times;</button>
+        <img class="modal-conteudo" id="img-modal" alt="" />
         <div id="legenda-modal" class="modal-legenda"></div>
       </div>
     </div>

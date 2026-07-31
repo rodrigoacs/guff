@@ -1,15 +1,21 @@
 document.addEventListener('DOMContentLoaded', () => {
+  let colecoes = []
+  let colecaoAtual = null // slug da coleção selecionada
   let cartasOriginais = []
   let cartasExibidas = []
   let filtroAtual = 'todas'
+  let carregando = false
 
   let paginaAtual = 1
   const CARTAS_POR_PAGINA = 36
+  const CHAVE_ULTIMA_COLECAO = 'guff:ultima-colecao'
 
   const gridCartas = document.getElementById('grid-cartas')
   const inputBusca = document.getElementById('busca')
   const containerFiltros = document.getElementById('container-filtros')
   const btnExportarLiga = document.getElementById('btn-exportar-ligamagic')
+  const seletorColecao = document.getElementById('seletor-colecao')
+  const tituloColecao = document.getElementById('titulo-colecao')
 
   const elTotal = document.getElementById('total-cartas')
   const elColetadas = document.getElementById('cartas-coletadas')
@@ -29,17 +35,117 @@ document.addEventListener('DOMContentLoaded', () => {
   const spanFecharModal = document.querySelector('.modal-fechar')
   const backdropModal = document.querySelector('.modal-backdrop')
 
-  const carregarCartas = async () => {
+  // Id da última carta atualizada por clique, usado só pra disparar o pulse visual uma vez
+  let ultimaCartaAtualizadaId = null
+
+  // Observa quais cartas foil estão fora da tela pra pausar a animação delas (economiza CPU/GPU)
+  const observadorFoil = ('IntersectionObserver' in window)
+    ? new IntersectionObserver((entradas) => {
+      entradas.forEach(entrada => {
+        entrada.target.classList.toggle('foil-pausado', !entrada.isIntersecting)
+      })
+    }, { root: null, threshold: 0 })
+    : null
+
+  const mostrarErro = (mensagem) => {
+    if (gridCartas) {
+      gridCartas.innerHTML = `<p style="color: var(--danger-color); text-align: center; width: 100%; grid-column: 1/-1;">${mensagem}</p>`
+    }
+  }
+
+  const mostrarSkeleton = () => {
+    if (!gridCartas) return
+    gridCartas.innerHTML = ''
+    for (let i = 0; i < CARTAS_POR_PAGINA; i++) {
+      const slot = document.createElement('div')
+      slot.className = 'slot-carta slot-skeleton'
+      gridCartas.appendChild(slot)
+    }
+  }
+
+  // --- Carregamento da lista de coleções e do seletor ---
+
+  const carregarColecoes = async () => {
     try {
-      const resposta = await fetch('/api/cartas')
+      const resposta = await fetch('/api/colecoes')
+      if (!resposta.ok) throw new Error(`HTTP ${resposta.status}`)
+      colecoes = await resposta.json()
+
+      if (!Array.isArray(colecoes) || colecoes.length === 0) {
+        mostrarErro('Nenhuma coleção cadastrada em data/colecoes.json.')
+        return
+      }
+
+      renderizarSeletorColecoes()
+
+      const ultimaSalva = localStorage.getItem(CHAVE_ULTIMA_COLECAO)
+      const slugInicial = colecoes.some(c => c.slug === ultimaSalva) ? ultimaSalva : colecoes[0].slug
+
+      selecionarColecao(slugInicial)
+    } catch (error) {
+      console.error('Erro ao carregar coleções:', error)
+      mostrarErro('Não foi possível carregar a lista de coleções. Verifique o servidor.')
+    }
+  }
+
+  const renderizarSeletorColecoes = () => {
+    if (!seletorColecao) return
+    seletorColecao.innerHTML = ''
+
+    colecoes.forEach(colecao => {
+      const option = document.createElement('option')
+      option.value = colecao.slug
+      option.textContent = colecao.erro
+        ? `${colecao.nome} (erro ao carregar)`
+        : `${colecao.nome} — ${colecao.coletadas ?? 0}/${colecao.total ?? 0}`
+      seletorColecao.appendChild(option)
+    })
+  }
+
+  const selecionarColecao = (slug) => {
+    colecaoAtual = slug
+    if (seletorColecao) seletorColecao.value = slug
+    localStorage.setItem(CHAVE_ULTIMA_COLECAO, slug)
+
+    const colecao = colecoes.find(c => c.slug === slug)
+    if (tituloColecao) tituloColecao.textContent = colecao ? colecao.nome : 'Guff'
+
+    filtroAtual = 'todas'
+    paginaAtual = 1
+    if (inputBusca) inputBusca.value = ''
+    document.querySelectorAll('#container-filtros .filter-btn').forEach(b => {
+      b.classList.toggle('active', b.getAttribute('data-filter') === 'todas')
+    })
+
+    carregarCartas()
+  }
+
+  if (seletorColecao) {
+    seletorColecao.addEventListener('change', (e) => selecionarColecao(e.target.value))
+  }
+
+  // --- Cartas da coleção selecionada ---
+
+  const carregarCartas = async () => {
+    if (!colecaoAtual) return
+
+    carregando = true
+    mostrarSkeleton()
+
+    try {
+      const resposta = await fetch(`/api/colecoes/${colecaoAtual}/cartas`)
+      if (!resposta.ok) {
+        const corpo = await resposta.json().catch(() => ({}))
+        throw new Error(corpo.error || `HTTP ${resposta.status}`)
+      }
       cartasOriginais = await resposta.json()
       gerarBotoesDeEdicao()
+      carregando = false
       aplicarFiltrosEBusca()
     } catch (error) {
+      carregando = false
       console.error('Erro ao carregar cartas:', error)
-      if (gridCartas) {
-        gridCartas.innerHTML = '<p style="color: var(--danger-color); text-align: center; width: 100%; grid-column: 1/-1;">Erro de conexão. Verifique o servidor.</p>'
-      }
+      mostrarErro('Erro de conexão ao carregar as cartas desta coleção. Verifique o servidor.')
     }
   }
 
@@ -61,8 +167,9 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   window.atualizarQtd = async (id, delta) => {
+    if (!colecaoAtual) return
     try {
-      const resposta = await fetch(`/api/cartas/${id}`, {
+      const resposta = await fetch(`/api/colecoes/${colecaoAtual}/cartas/${id}`, {
         method: 'PATCH',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ delta })
@@ -74,7 +181,11 @@ document.addEventListener('DOMContentLoaded', () => {
         if (index !== -1) {
           cartasOriginais[index] = cartaAtualizada
         }
+        ultimaCartaAtualizadaId = id
         aplicarFiltrosEBusca()
+      } else {
+        const corpo = await resposta.json().catch(() => ({}))
+        console.error('Erro ao atualizar quantidade:', corpo.error || resposta.status)
       }
     } catch (error) {
       console.error('Erro ao atualizar quantidade:', error)
@@ -82,12 +193,13 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   window.alternarTratamento = async (id, tratamentoAtual) => {
+    if (!colecaoAtual) return
     const tratamentos = ['normal', 'foil', 'etched']
     let proximoIndex = (tratamentos.indexOf(tratamentoAtual || 'normal') + 1) % tratamentos.length
     const novoTratamento = tratamentos[proximoIndex]
 
     try {
-      const resposta = await fetch(`/api/cartas/${id}`, {
+      const resposta = await fetch(`/api/colecoes/${colecaoAtual}/cartas/${id}`, {
         method: 'PATCH',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ tratamento: novoTratamento })
@@ -100,26 +212,71 @@ document.addEventListener('DOMContentLoaded', () => {
           cartasOriginais[index] = cartaAtualizada
         }
         aplicarFiltrosEBusca()
+      } else {
+        const corpo = await resposta.json().catch(() => ({}))
+        console.error('Erro ao atualizar tratamento:', corpo.error || resposta.status)
       }
     } catch (error) {
       console.error('Erro ao atualizar tratamento:', error)
     }
   }
 
+  // --- Modal (com trava de foco simples para acessibilidade) ---
+
+  let elementoComFocoAntesDoModal = null
+
+  const getFocaveisDoModal = () => {
+    const wrapper = modal.querySelector('.modal-wrapper')
+    if (!wrapper) return []
+    return Array.from(wrapper.querySelectorAll('button, [href], img, [tabindex]:not([tabindex="-1"])'))
+      .filter(el => !el.disabled)
+  }
+
+  const trancarFocoNoModal = (e) => {
+    if (e.key !== 'Tab') return
+    const focaveis = getFocaveisDoModal()
+    if (focaveis.length === 0) return
+
+    const primeiro = focaveis[0]
+    const ultimo = focaveis[focaveis.length - 1]
+
+    if (e.shiftKey && document.activeElement === primeiro) {
+      e.preventDefault()
+      ultimo.focus()
+    } else if (!e.shiftKey && document.activeElement === ultimo) {
+      e.preventDefault()
+      primeiro.focus()
+    }
+  }
+
   window.abrirModal = (urlSrc, nomeCarta, edicaoCarta) => {
     if (!modal || !imgModal || !legendaModal) return
+    elementoComFocoAntesDoModal = document.activeElement
+
     imgModal.src = urlSrc
+    imgModal.alt = `${nomeCarta} (${edicaoCarta})`
     legendaModal.textContent = `${nomeCarta} (${edicaoCarta})`
     modal.classList.add('mostrar')
+
+    document.addEventListener('keydown', trancarFocoNoModal)
+    if (spanFecharModal) spanFecharModal.focus()
   }
 
   const fecharModal = () => {
     if (!modal || !imgModal || !legendaModal) return
     modal.classList.remove('mostrar')
+    document.removeEventListener('keydown', trancarFocoNoModal)
+
     setTimeout(() => {
       imgModal.src = ''
+      imgModal.alt = ''
       legendaModal.textContent = ''
     }, 300)
+
+    if (elementoComFocoAntesDoModal && typeof elementoComFocoAntesDoModal.focus === 'function') {
+      elementoComFocoAntesDoModal.focus()
+    }
+    elementoComFocoAntesDoModal = null
   }
 
   if (spanFecharModal) spanFecharModal.onclick = fecharModal
@@ -140,58 +297,64 @@ document.addEventListener('DOMContentLoaded', () => {
     if (elTotal) elTotal.textContent = total
     if (elColetadas) elColetadas.textContent = coletadas
     if (elFaltantes) elFaltantes.textContent = faltantes
-
     if (elProgressBar) {
       elProgressBar.style.width = `${porcentagem}%`
+      elProgressBar.style.background = porcentagem >= 100 ? 'var(--success-color)' : 'var(--accent-color)'
     }
-  }
-
-  const atualizarBotoesPaginacao = (totalPaginas) => {
-    const desabilitarAnterior = paginaAtual === 1
-    const desabilitarProxima = paginaAtual === totalPaginas || totalPaginas === 0
-
-    if (btnAnterior) btnAnterior.disabled = desabilitarAnterior
-    if (btnAnteriorBottom) btnAnteriorBottom.disabled = desabilitarAnterior
-
-    if (btnProxima) btnProxima.disabled = desabilitarProxima
-    if (btnProximaBottom) btnProximaBottom.disabled = desabilitarProxima
-
-    const texto = `Página ${paginaAtual} de ${totalPaginas || 1}`
-    if (infoPagina) infoPagina.textContent = texto
-    if (infoPaginaBottom) infoPaginaBottom.textContent = texto
   }
 
   const renderizarGrid = () => {
     if (!gridCartas) return
     gridCartas.innerHTML = ''
 
-    const totalPaginas = Math.ceil(cartasExibidas.length / CARTAS_POR_PAGINA)
-    atualizarBotoesPaginacao(totalPaginas)
+    // Filtro/busca sem nenhum resultado (diferente de "coleção vazia por falta de dados")
+    if (cartasExibidas.length === 0) {
+      const estadoVazio = document.createElement('div')
+      estadoVazio.className = 'estado-vazio'
+      estadoVazio.innerHTML = `
+        <strong>Nenhuma carta encontrada</strong>
+        <span>Tente ajustar a busca ou trocar o filtro.</span>
+      `
+      gridCartas.appendChild(estadoVazio)
+      if (infoPagina) infoPagina.textContent = 'Página 1 de 1'
+      if (infoPaginaBottom) infoPaginaBottom.textContent = 'Página 1 de 1'
+      if (btnAnterior) btnAnterior.disabled = true
+      if (btnAnteriorBottom) btnAnteriorBottom.disabled = true
+      if (btnProxima) btnProxima.disabled = true
+      if (btnProximaBottom) btnProximaBottom.disabled = true
+      return
+    }
 
-    const indiceInicio = (paginaAtual - 1) * CARTAS_POR_PAGINA
-    const indiceFim = indiceInicio + CARTAS_POR_PAGINA
-    const cartasPagina = cartasExibidas.slice(indiceInicio, indiceFim)
+    const inicio = (paginaAtual - 1) * CARTAS_POR_PAGINA
+    const pagina = cartasExibidas.slice(inicio, inicio + CARTAS_POR_PAGINA)
+    const totalPaginas = Math.max(1, Math.ceil(cartasExibidas.length / CARTAS_POR_PAGINA))
+
+    if (infoPagina) infoPagina.textContent = `Página ${paginaAtual} de ${totalPaginas}`
+    if (infoPaginaBottom) infoPaginaBottom.textContent = `Página ${paginaAtual} de ${totalPaginas}`
+    if (btnAnterior) btnAnterior.disabled = paginaAtual <= 1
+    if (btnAnteriorBottom) btnAnteriorBottom.disabled = paginaAtual <= 1
+    if (btnProxima) btnProxima.disabled = paginaAtual >= totalPaginas
+    if (btnProximaBottom) btnProximaBottom.disabled = paginaAtual >= totalPaginas
 
     for (let i = 0; i < CARTAS_POR_PAGINA; i++) {
-      const carta = cartasPagina[i]
+      const carta = pagina[i]
       const slot = document.createElement('div')
 
       if (carta) {
         if (carta.isPlaceholder) {
-          slot.className = 'slot-carta slot-vazio'
-          slot.innerHTML = `<span class="placeholder-text">INÍCIO<br>${carta.edicaoAlvo}</span>`
+          // Divisória de edição: visualmente distinta de um slot vazio de verdade
+          slot.className = 'slot-carta slot-divisoria'
+          slot.innerHTML = `<div class="placeholder-text">${carta.edicaoAlvo}</div>`
         } else {
           const temCarta = carta.quantidade > 0
           const classeFaltante = temCarta ? '' : 'carta-faltante'
           const tagFalta = temCarta ? '' : '<div class="badge-falta">Falta</div>'
 
-          const numeroLimpo = carta.numero.toString().trim()
-          const numeroAjustado = numeroLimpo.replace(/^(\d+)/, match => match.padStart(3, '0'))
+          const numeroLimpo = carta.numero != null ? carta.numero.toString().trim() : ''
+          const urlEdicaoImg = (carta.edicaoBase || carta.edicao || '').toLowerCase()
+          const urlImagem = `/cartas/${colecaoAtual}/${urlEdicaoImg}-${numeroLimpo}.jpg`
 
-          const urlEdicaoImg = (carta.edicaoBase || carta.edicao).toLowerCase()
-          const urlImagem = `/cartas/${urlEdicaoImg}-${numeroLimpo}.jpg`
-
-          const nomeSeguro = carta.nome.replace(/'/g, "\\'").replace(/"/g, '&quot;')
+          const nomeSeguro = (carta.nome || '').replace(/'/g, "\\'").replace(/"/g, '&quot;')
 
           const tratamento = carta.tratamento || 'normal'
           let classeTratamento = ''
@@ -205,20 +368,22 @@ document.addEventListener('DOMContentLoaded', () => {
             iconeTratamento = 'ETCH'
           }
 
+          const classePulso = carta.id === ultimaCartaAtualizadaId ? 'pulso' : ''
+
           slot.className = 'slot-carta'
           slot.innerHTML = `
             <div class="nome-tooltip">${carta.nome} (${carta.edicao})</div>
-            
+
             <div class="container-imagem ${classeTratamento}" onclick="abrirModal('${urlImagem}', '${nomeSeguro}', '${carta.edicao}')">
                 <img class="carta-imagem ${classeFaltante}" src="${urlImagem}" alt="${nomeSeguro}" loading="lazy" onerror="this.onerror=null; this.src='https://cards.scryfall.io/large/front/b/a/badca01d-5f33-4f99-abec-0c302941b6ae.jpg?1686970144';">
             </div>
-            
+
             ${tagFalta}
             <div class="overlay-controles">
-                <button class="btn-qtd" onclick="atualizarQtd('${carta.id}', -1)">&minus;</button>
-                <span class="qtd-valor">${carta.quantidade}</span>
-                <button class="btn-qtd" onclick="atualizarQtd('${carta.id}', 1)">&plus;</button>
-                <button class="btn-tratamento" onclick="alternarTratamento('${carta.id}', '${tratamento}')" title="Alterar Tratamento">${iconeTratamento}</button>
+                <button class="btn-qtd" onclick="atualizarQtd('${carta.id}', -1)" aria-label="Diminuir quantidade de ${nomeSeguro}">&minus;</button>
+                <span class="qtd-valor ${classePulso}">${carta.quantidade}</span>
+                <button class="btn-qtd" onclick="atualizarQtd('${carta.id}', 1)" aria-label="Aumentar quantidade de ${nomeSeguro}">&plus;</button>
+                <button class="btn-tratamento" onclick="alternarTratamento('${carta.id}', '${tratamento}')" aria-label="Alterar tratamento de ${nomeSeguro}, atual: ${tratamento}" title="Alterar Tratamento">${iconeTratamento}</button>
             </div>
           `
         }
@@ -228,9 +393,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
       gridCartas.appendChild(slot)
     }
+
+    ultimaCartaAtualizadaId = null
+
+    // Observa as cartas foil pra pausar a animação das que saem da tela
+    if (observadorFoil) {
+      gridCartas.querySelectorAll('.efeito-foil').forEach(el => observadorFoil.observe(el))
+    }
   }
 
   const aplicarFiltrosEBusca = () => {
+    if (carregando) return
+
     const termoBusca = inputBusca ? inputBusca.value.toLowerCase() : ''
 
     let filtradas = cartasOriginais.filter(carta => {
@@ -248,22 +422,24 @@ document.addEventListener('DOMContentLoaded', () => {
       return matchBusca && matchFiltro
     })
 
+    // Insere divisórias sempre que a edição-base muda, na ordem em que as cartas
+    // já vêm ordenadas do backend — funciona pra qualquer coleção, não só LTR/LTC.
     if (filtroAtual === 'todas' && termoBusca === '') {
       let resultadoComPlaceholders = []
-      let encontrouLTC = false
+      let edicaoBaseAnterior = null
 
       filtradas.forEach(carta => {
-        const raiz = (carta.edicaoBase || carta.edicao).toUpperCase()
+        const raiz = (carta.edicaoBase || carta.edicao || '').toUpperCase()
 
-        if (raiz === 'LTC' && !encontrouLTC) {
+        if (edicaoBaseAnterior !== null && raiz !== edicaoBaseAnterior) {
           resultadoComPlaceholders.push({
             isPlaceholder: true,
-            id: `placeholder-divisoria`,
-            edicaoAlvo: 'LTC'
+            id: `placeholder-divisoria-${raiz}`,
+            edicaoAlvo: raiz
           })
-          encontrouLTC = true
         }
 
+        edicaoBaseAnterior = raiz
         resultadoComPlaceholders.push(carta)
       })
       filtradas = resultadoComPlaceholders
@@ -328,11 +504,10 @@ document.addEventListener('DOMContentLoaded', () => {
       const faltantes = cartasOriginais.filter(carta => carta.quantidade === 0 && !carta.isPlaceholder)
 
       if (faltantes.length === 0) {
-        alert('Nenhuma carta faltando na sua coleção.')
+        alert('Nenhuma carta faltando nesta coleção.')
         return
       }
 
-      // Nova formatação exata que você pediu
       const conteudoTxt = faltantes.map(carta =>
         `1 ${carta.nome} [Qualidade=SP][Edicao=${carta.edicao}][Idioma=PTEN]`
       ).join('\n')
@@ -342,7 +517,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const url = URL.createObjectURL(blob)
 
       link.setAttribute('href', url)
-      link.setAttribute('download', 'faltantes-ligamagic.txt')
+      link.setAttribute('download', `faltantes-${colecaoAtual || 'colecao'}.txt`)
       link.style.visibility = 'hidden'
 
       document.body.appendChild(link)
@@ -351,5 +526,5 @@ document.addEventListener('DOMContentLoaded', () => {
     })
   }
 
-  carregarCartas()
+  carregarColecoes()
 })

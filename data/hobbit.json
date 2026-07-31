@@ -1,0 +1,4792 @@
+[
+  {
+    "id": "HOB-1-d1a1e520-1fe2-4529-8afb-c187bb80da3c",
+    "nome": "Long-Bodied Grey Dog",
+    "edicao": "HOB",
+    "numero": "1",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-2-3ad02b56-13ec-46ef-92bd-ae078b8bb517",
+    "nome": "Old Thrush",
+    "edicao": "HOB",
+    "numero": "2",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-3-0b4b1c59-bcec-4779-9e27-0e6f9feb4e11",
+    "nome": "Troop of Ponies",
+    "edicao": "HOB",
+    "numero": "3",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-4-88f0c189-c9ed-4ea3-ae62-3d8ac6c7fecf",
+    "nome": "Belladonna Took",
+    "edicao": "HOB",
+    "numero": "4",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-5-45ad01f0-cda8-4931-82bb-cb4949e56ae9",
+    "nome": "Bilbo's Gambit",
+    "edicao": "HOB",
+    "numero": "5",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-6-6b8e6435-7de4-41d5-bc7d-8e24c11897d0",
+    "nome": "Bofur, Reliable Guardian // Concerted Care",
+    "edicao": "HOB",
+    "numero": "6",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-7-42fbd61d-e1a6-465d-b1a3-f5ee0869d3af",
+    "nome": "Celebrate the Mountain-king",
+    "edicao": "HOB",
+    "numero": "7",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-8-99d27749-d16c-45e9-accc-6a01351c17f9",
+    "nome": "Dáin, Lord of the Iron Hills",
+    "edicao": "HOB",
+    "numero": "8",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-9-1f9a61a1-454e-4d5b-a6dd-1a79fe9dedf3",
+    "nome": "Dwarven Provisioner",
+    "edicao": "HOB",
+    "numero": "9",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-10-f2341cf3-4d2c-4a4f-9aea-8834104a8910",
+    "nome": "Dwarven Shortsword",
+    "edicao": "HOB",
+    "numero": "10",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-11-3feca644-5f65-4477-bbc8-d505cec6f3a5",
+    "nome": "Eagle of the Great Shelf",
+    "edicao": "HOB",
+    "numero": "11",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-12-0bda1b62-47fc-42c2-a841-ccad8ea0db48",
+    "nome": "The Eagles Are Coming!",
+    "edicao": "HOB",
+    "numero": "12",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-13-573f67b0-6ce8-4857-a703-4a5728640736",
+    "nome": "Esgaroth Garrison",
+    "edicao": "HOB",
+    "numero": "13",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-14-b02142f3-5e55-40dc-a02c-9113fb7d763c",
+    "nome": "Fíli the Pathfinder",
+    "edicao": "HOB",
+    "numero": "14",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-15-3b087bd4-bbb7-4963-bdb6-0a700ff19a04",
+    "nome": "Gleaming Splendor",
+    "edicao": "HOB",
+    "numero": "15",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-16-370e09c2-36c5-4662-8350-1db798afad3e",
+    "nome": "Iron Hills Blacksmith",
+    "edicao": "HOB",
+    "numero": "16",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-17-1805532f-6d99-47d0-9529-5f5831a7fdc8",
+    "nome": "Kíli the Resourceful",
+    "edicao": "HOB",
+    "numero": "17",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-18-178c4cf6-6b11-40e4-9673-c560d6818a6b",
+    "nome": "Lake-town Lookout",
+    "edicao": "HOB",
+    "numero": "18",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-19-67304269-c595-4cf0-8dbf-fcb2e9e01fe2",
+    "nome": "Lake-town Toymaker",
+    "edicao": "HOB",
+    "numero": "19",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-20-430c8916-1167-400b-9cad-d301f59d5e5d",
+    "nome": "Magnificent End",
+    "edicao": "HOB",
+    "numero": "20",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-21-0a6a6ff0-b1cd-4b06-bd31-612690094e0e",
+    "nome": "Moment of Glory",
+    "edicao": "HOB",
+    "numero": "21",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-22-68f4893d-e9a5-4f89-ade3-9ab78a834ad5",
+    "nome": "The Mountain-king's Return",
+    "edicao": "HOB",
+    "numero": "22",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-23-c5727af5-a487-4b16-8278-81c3c928c417",
+    "nome": "Ori, Keeper of Songs",
+    "edicao": "HOB",
+    "numero": "23",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-24-c977fb5f-4436-41d0-af68-93b6d05897e5",
+    "nome": "The Queen of Dale",
+    "edicao": "HOB",
+    "numero": "24",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-25-b3c1ebd6-967f-4b8c-8f1f-442ce8c1da24",
+    "nome": "Roads Go Ever, Ever On",
+    "edicao": "HOB",
+    "numero": "25",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-26-31a7a5e2-4cb8-48fc-8351-18344b4a7560",
+    "nome": "Settle the Wreckage",
+    "edicao": "HOB",
+    "numero": "26",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-27-c5752731-253c-4b41-bdd8-94c26d715206",
+    "nome": "Stone by Sunlight",
+    "edicao": "HOB",
+    "numero": "27",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-28-127367b6-9cfe-4516-9bfd-5b951468a25c",
+    "nome": "Thorin's Last Stand",
+    "edicao": "HOB",
+    "numero": "28",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-29-3aa29fe8-1687-486f-b4df-c04977869ab1",
+    "nome": "An Unexpected Party // At the Door",
+    "edicao": "HOB",
+    "numero": "29",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-30-5cc0f994-5048-4898-926e-b56cbc97e0ca",
+    "nome": "Velvetwing Butterflies // Gaze in Wonder",
+    "edicao": "HOB",
+    "numero": "30",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-31-8d4f3eb5-fedf-45d6-8bd8-aacbe0ce33b2",
+    "nome": "Vow to Erebor",
+    "edicao": "HOB",
+    "numero": "31",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-32-8bff0aa6-16d9-4c83-b598-ef00a3b33d2c",
+    "nome": "Bilbo, Luckwearer // Burglar's Plot",
+    "edicao": "HOB",
+    "numero": "32",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-33-484c7f83-8339-4ae1-8350-68ce1f7d05a3",
+    "nome": "Bilbo, Thief in the Night",
+    "edicao": "HOB",
+    "numero": "33",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-34-6a109b3e-9f5b-4625-abb7-6b992c10530b",
+    "nome": "Bilbo Baggins, Burglar // Take a Glance",
+    "edicao": "HOB",
+    "numero": "34",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-35-9de48690-e5ae-495a-addf-305f1db7ec21",
+    "nome": "Confusticate and Bebother",
+    "edicao": "HOB",
+    "numero": "35",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-36-fbcb310c-be73-46f8-8e65-8632454ccc6e",
+    "nome": "Elrond, Moon-Reader",
+    "edicao": "HOB",
+    "numero": "36",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-37-c141695c-c108-41d5-85cb-1f7485d9d533",
+    "nome": "Elven Raft-Steerer",
+    "edicao": "HOB",
+    "numero": "37",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-38-9c50656d-c74a-4e90-9ef7-afa237682516",
+    "nome": "Elvenking's Harper",
+    "edicao": "HOB",
+    "numero": "38",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-39-ad40a4b9-9fab-49c1-8e9f-6e0776966833",
+    "nome": "Enchanted River's Grasp",
+    "edicao": "HOB",
+    "numero": "39",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-40-a1142fa1-b861-4876-aa48-402af35aaa63",
+    "nome": "Fateful Discovery",
+    "edicao": "HOB",
+    "numero": "40",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-41-1f8403a2-849c-4a59-b0ed-c8803995028d",
+    "nome": "Gandalf, Wandering Wizard",
+    "edicao": "HOB",
+    "numero": "41",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-42-b2fb3995-5b43-4776-88b2-346d353edee0",
+    "nome": "Great Gilded Boat",
+    "edicao": "HOB",
+    "numero": "42",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-43-abfbb255-a39b-4df5-bfb6-5298584e89f0",
+    "nome": "Lakeshore Apothecary",
+    "edicao": "HOB",
+    "numero": "43",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-44-4202a678-a5f4-47f9-9c18-e88ab9ad20a4",
+    "nome": "Lake-town Mariners // Gone Fishing",
+    "edicao": "HOB",
+    "numero": "44",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-45-cd5af94d-6321-4834-8e5f-e5d0261b3ef3",
+    "nome": "Long Lake Nuisance",
+    "edicao": "HOB",
+    "numero": "45",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-46-fa0554fc-9448-4ae2-8712-4f4f7af3c7b4",
+    "nome": "The Lord of the Eagles",
+    "edicao": "HOB",
+    "numero": "46",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-47-addcefdd-e012-4adf-9052-e60376a8d2d3",
+    "nome": "Master's Councillors",
+    "edicao": "HOB",
+    "numero": "47",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-48-ad7ed4e6-3fe2-40f1-909b-a03b2a3c941a",
+    "nome": "Mirkwood Meditator",
+    "edicao": "HOB",
+    "numero": "48",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-49-2d838feb-89f2-4cdb-a5ab-ec880f28d873",
+    "nome": "Most Decrepit Old Bird // Speak Secrets",
+    "edicao": "HOB",
+    "numero": "49",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-50-4a865cea-f947-4736-8ace-ba478fceeb22",
+    "nome": "Old Fat Spider Can't See Me",
+    "edicao": "HOB",
+    "numero": "50",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-51-afb73190-b9bd-4744-a011-a37cd9c0148d",
+    "nome": "Plunder the Trollshaws",
+    "edicao": "HOB",
+    "numero": "51",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-52-acbb4d32-2771-469e-a6de-0df15155cc62",
+    "nome": "Ravenhill Flock",
+    "edicao": "HOB",
+    "numero": "52",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-53-a6129286-7437-4ba4-be55-586a22cd67ca",
+    "nome": "Riddles in the Dark",
+    "edicao": "HOB",
+    "numero": "53",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-54-a2e4099e-86bd-461f-87fa-7f7850ae7eec",
+    "nome": "Roll-Roll-Roll-Roll",
+    "edicao": "HOB",
+    "numero": "54",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-55-dd32a1dd-3541-4572-a717-1deabc14b827",
+    "nome": "Sound the Trumpets",
+    "edicao": "HOB",
+    "numero": "55",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-56-e4ded4c1-0e3e-47c5-8fdc-e7c187f68b12",
+    "nome": "Thranduil's Decree",
+    "edicao": "HOB",
+    "numero": "56",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-57-79edf5f6-f6b6-4271-bd2a-14a980f30616",
+    "nome": "Uncover the Moon-Letters",
+    "edicao": "HOB",
+    "numero": "57",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-58-e49866d4-966a-40f9-b08d-18e5af6d726b",
+    "nome": "Uneasy Partings",
+    "edicao": "HOB",
+    "numero": "58",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-59-0de529a7-bdc5-4581-a169-1ad123bc099a",
+    "nome": "Wizard's Staff",
+    "edicao": "HOB",
+    "numero": "59",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-60-3696d65c-fffd-4685-bb2d-e8769bf476e3",
+    "nome": "Along the Crooked Way",
+    "edicao": "HOB",
+    "numero": "60",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-61-135da718-affc-46ba-be57-c12c23b54dad",
+    "nome": "Azog, Moria's Ruin",
+    "edicao": "HOB",
+    "numero": "61",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-62-17892c93-b9b2-4720-933b-998ed0200492",
+    "nome": "Bilbo's Deadly Slice",
+    "edicao": "HOB",
+    "numero": "62",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-63-fa8fd3c4-bd00-485d-80b1-2b67f5786fce",
+    "nome": "Crude Bent Blade",
+    "edicao": "HOB",
+    "numero": "63",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-64-63c87009-ff1b-44b9-88b1-e26219094c67",
+    "nome": "Desolation Prowler",
+    "edicao": "HOB",
+    "numero": "64",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-65-b72e193c-e030-4936-9b79-c636eff750e1",
+    "nome": "Down, Down to Goblin-town",
+    "edicao": "HOB",
+    "numero": "65",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-66-67d52db5-597e-46d5-af39-c3a2de107d30",
+    "nome": "Dreaded Bat-Cloud",
+    "edicao": "HOB",
+    "numero": "66",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-67-07bfc803-e11b-47ab-9f25-0ace7e174200",
+    "nome": "Front Porch Sentries",
+    "edicao": "HOB",
+    "numero": "67",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-68-2ce066be-e5ad-4b93-8245-1b5018990d03",
+    "nome": "Gathering of Darkness",
+    "edicao": "HOB",
+    "numero": "68",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-69-5d485d70-c7b9-40a4-9089-5e7f1c2b9213",
+    "nome": "Gnashing of Teeth",
+    "edicao": "HOB",
+    "numero": "69",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-70-bbdc7e37-c65a-497a-92b7-a30a6e369c71",
+    "nome": "Gollum, Riddle Master",
+    "edicao": "HOB",
+    "numero": "70",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-71-6cfaa182-3fec-4907-8814-b4d29c33cec3",
+    "nome": "Gollum, Silent Slinker // Meager Meal",
+    "edicao": "HOB",
+    "numero": "71",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-72-50d91ef3-6f5d-4255-8d47-be731b5dad30",
+    "nome": "Gollum the Abandoned",
+    "edicao": "HOB",
+    "numero": "72",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-73-9d9ef88f-d208-4788-9553-cd672b3be1fe",
+    "nome": "Great Fierce Bee",
+    "edicao": "HOB",
+    "numero": "73",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-74-c87f6004-e1cf-42b2-9647-322bc4939339",
+    "nome": "Great Ugly-Looking Goblin // Clap! Snap!",
+    "edicao": "HOB",
+    "numero": "74",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-75-3ffe34d4-72f4-4562-a948-8909b9321e59",
+    "nome": "Head of the Hunt",
+    "edicao": "HOB",
+    "numero": "75",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-76-9763bd56-fa4b-4907-ad15-c3f040c5fc0a",
+    "nome": "Inside Information",
+    "edicao": "HOB",
+    "numero": "76",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-77-3788ada6-34a9-41af-a31c-2d090550e503",
+    "nome": "The Master of Lake-town",
+    "edicao": "HOB",
+    "numero": "77",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-78-d3cbe830-7e95-4019-89c4-cfb36bcf00f8",
+    "nome": "Nighthowl Pursuer",
+    "edicao": "HOB",
+    "numero": "78",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-79-8651958c-3b94-47a9-a751-faf8f6236a42",
+    "nome": "Rage into the Valley",
+    "edicao": "HOB",
+    "numero": "79",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-80-ea7b5052-b343-466d-879e-2a211657ef0a",
+    "nome": "Ravening Warg",
+    "edicao": "HOB",
+    "numero": "80",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-81-16765eb2-d497-4cd6-b683-20eac2f10bbf",
+    "nome": "Reverent Howl",
+    "edicao": "HOB",
+    "numero": "81",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-82-5ee45a5e-3650-47b3-8d31-6b1de9e27a14",
+    "nome": "Rhovanion Rampager",
+    "edicao": "HOB",
+    "numero": "82",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-83-ed87b471-79f9-45ec-9188-69e970f6121e",
+    "nome": "The Sackville-Bagginses",
+    "edicao": "HOB",
+    "numero": "83",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-84-fd145e3a-c889-4390-accb-863dbcc845ce",
+    "nome": "Stir Up Trouble",
+    "edicao": "HOB",
+    "numero": "84",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-85-6fcc3699-b475-4612-884d-81bd4f21e9c1",
+    "nome": "Stony-Voiced Goblins",
+    "edicao": "HOB",
+    "numero": "85",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-86-5b25e454-06bb-43ca-9a9f-57164f7a70c4",
+    "nome": "Supper for Spiders",
+    "edicao": "HOB",
+    "numero": "86",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-87-42d7ca7b-c983-40fd-ad57-59f6972bb375",
+    "nome": "Balin, Loremaster",
+    "edicao": "HOB",
+    "numero": "87",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-88-63c317e7-432c-4817-8db4-3670a1d84be3",
+    "nome": "Bombur, Gentle Dreamer",
+    "edicao": "HOB",
+    "numero": "88",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-89-cb25b11a-6bf5-4a9a-b60f-d4dcac3816d6",
+    "nome": "Bothersome Noisemaker",
+    "edicao": "HOB",
+    "numero": "89",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-90-fceb1a2d-121e-49ad-acf2-1bb5aebec116",
+    "nome": "Burn, Burn, Tree and Fern",
+    "edicao": "HOB",
+    "numero": "90",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-91-7112e460-9160-4535-ad94-93f1f4ac04cf",
+    "nome": "Dáin Ironfoot",
+    "edicao": "HOB",
+    "numero": "91",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-92-fc12c22a-11ff-4fb0-bc42-dd8490b8efb7",
+    "nome": "Desert Were-Worm",
+    "edicao": "HOB",
+    "numero": "92",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-93-2462358b-52c8-49b2-8d97-d65a9188f8f7",
+    "nome": "Desolation of Smaug",
+    "edicao": "HOB",
+    "numero": "93",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-94-d2f60ad0-c887-4585-85f8-afcf72fb80d0",
+    "nome": "Dori, Bearer of Friends",
+    "edicao": "HOB",
+    "numero": "94",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-95-bd0f0415-43af-4f5d-8999-853c5d42780d",
+    "nome": "Dwarven Mauler",
+    "edicao": "HOB",
+    "numero": "95",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-96-9b0d29a1-7da9-4fb3-8536-8ff8d8acae0b",
+    "nome": "Gandalf, Goblins' Bane // Flameshape",
+    "edicao": "HOB",
+    "numero": "96",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-97-7c5c6f1c-35cf-4172-b5a1-b73222b0723b",
+    "nome": "Gandalf, Spark Starter",
+    "edicao": "HOB",
+    "numero": "97",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-98-e4819aa6-5d28-4a37-942d-89523e30c4e1",
+    "nome": "Getaway Barrel",
+    "edicao": "HOB",
+    "numero": "98",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-99-5793b8eb-2fc5-454d-8fa2-20346fef167a",
+    "nome": "Glóin the Mighty // Easy Pickings",
+    "edicao": "HOB",
+    "numero": "99",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-100-ccff7382-8609-494c-aeee-cd1436456dd0",
+    "nome": "Goblin-town Flunkies",
+    "edicao": "HOB",
+    "numero": "100",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-101-bc4a60b8-a5bb-4dbf-8d48-95caf757eac3",
+    "nome": "Gundabad Opportunist",
+    "edicao": "HOB",
+    "numero": "101",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-102-46daa9ac-0ac7-4df9-b9d2-e03ab5b56c72",
+    "nome": "Iron Hills Stalwart",
+    "edicao": "HOB",
+    "numero": "102",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-103-df29484b-de4b-4bab-995a-7605745780d9",
+    "nome": "Last Light of Durin's Day",
+    "edicao": "HOB",
+    "numero": "103",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-104-3d5f35ff-4146-4844-9da5-031461cc8c05",
+    "nome": "The Misty Mountains Cold",
+    "edicao": "HOB",
+    "numero": "104",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-105-6dff14cd-b60b-48f4-9d9f-c9019b55df4c",
+    "nome": "Misty Mountains Raider",
+    "edicao": "HOB",
+    "numero": "105",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-106-9984b9ef-e81c-48f4-aa33-0504171a2d3c",
+    "nome": "Óin the Brave",
+    "edicao": "HOB",
+    "numero": "106",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-107-ea174cea-40e5-424e-9734-e39aae6c6b17",
+    "nome": "Pinecone Strike",
+    "edicao": "HOB",
+    "numero": "107",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-108-7bf81a8b-52ad-49f5-a3d4-22613cad3a3d",
+    "nome": "Ragged Short Spear",
+    "edicao": "HOB",
+    "numero": "108",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-109-419ca9e5-8413-4378-a4ef-eda5a1024218",
+    "nome": "Smaug, the Great Calamity // Spew Flame",
+    "edicao": "HOB",
+    "numero": "109",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-110-6a5d8fad-2ffd-4645-8c49-907999b6cecf",
+    "nome": "Smaug the Magnificent",
+    "edicao": "HOB",
+    "numero": "110",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-111-a16f203a-785e-4c78-9410-fb9f8a0ffa01",
+    "nome": "Smaug's Fury",
+    "edicao": "HOB",
+    "numero": "111",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-112-47666099-ffb2-4d07-a801-70524dba0837",
+    "nome": "Snowslope Hunter",
+    "edicao": "HOB",
+    "numero": "112",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-113-5f4f4683-ffd2-447a-932b-276f7fa17cca",
+    "nome": "Stone-Giant of High Pass",
+    "edicao": "HOB",
+    "numero": "113",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-114-117347af-0dd7-4350-901d-8c8a81387e22",
+    "nome": "Thorin, Mountain-king",
+    "edicao": "HOB",
+    "numero": "114",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-115-38c16a0a-375e-48cb-9720-dbbc08c603ae",
+    "nome": "Tidings of War",
+    "edicao": "HOB",
+    "numero": "115",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-116-81263d5d-e402-4813-9458-161112da27ab",
+    "nome": "Attercop",
+    "edicao": "HOB",
+    "numero": "116",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-117-e95eba5c-e0d6-46b4-a0be-8e373b2185ea",
+    "nome": "Bejeweled Warg",
+    "edicao": "HOB",
+    "numero": "117",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-118-804589b7-3ef9-473d-97cc-c61a2d41f70d",
+    "nome": "Beorn, Reluctant Host // Till and Tend",
+    "edicao": "HOB",
+    "numero": "118",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-119-367d5f8b-77ee-47f7-bc71-972d62c280a9",
+    "nome": "Beorn the Fierce",
+    "edicao": "HOB",
+    "numero": "119",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-120-153ca57e-30f0-4ad7-ae9d-c55cbf0fd4c9",
+    "nome": "Beorn's Hospitality",
+    "edicao": "HOB",
+    "numero": "120",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-121-71bec005-2925-4944-be16-2cc5eb30f5d6",
+    "nome": "Boughside Wanderers",
+    "edicao": "HOB",
+    "numero": "121",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-122-fae46a70-a6d3-4584-859d-6c7425fb1508",
+    "nome": "Cantankerous Keepers",
+    "edicao": "HOB",
+    "numero": "122",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-123-550cd0b6-ca61-4db7-9d20-0b68c48066f9",
+    "nome": "Dancing from Dark to Dawn",
+    "edicao": "HOB",
+    "numero": "123",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-124-c8aa5179-475b-4cc8-b21e-205b475eb4cf",
+    "nome": "Down in the Valley",
+    "edicao": "HOB",
+    "numero": "124",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-125-985bd676-58c4-42c7-a570-1b413e9aa94c",
+    "nome": "Galion, Elvenking's Butler",
+    "edicao": "HOB",
+    "numero": "125",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-126-7d6ece3d-8e7a-41ad-974f-3c9748de4825",
+    "nome": "Gigantic Big Bear",
+    "edicao": "HOB",
+    "numero": "126",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-127-4265caec-8c28-44cd-8e6b-90b5af926d3c",
+    "nome": "Guardian of the Halls",
+    "edicao": "HOB",
+    "numero": "127",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-128-8a50858a-33b5-4c45-9c31-5956ae5a33a6",
+    "nome": "Little Bear",
+    "edicao": "HOB",
+    "numero": "128",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-129-50fbedc0-bc66-4ffb-87f6-a2df69995091",
+    "nome": "Mirkwood Pathmaker",
+    "edicao": "HOB",
+    "numero": "129",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-130-96bc7d25-2828-478a-8fe5-a1f4ede8c9c0",
+    "nome": "Nasty Little Rabbit",
+    "edicao": "HOB",
+    "numero": "130",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-131-d876315f-b269-4254-a517-905c6e927462",
+    "nome": "The Notary Hobbits",
+    "edicao": "HOB",
+    "numero": "131",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-132-e0c0f842-40fe-4776-a988-a35216bcfd47",
+    "nome": "Old Fat Spider",
+    "edicao": "HOB",
+    "numero": "132",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-133-0feb9817-56e1-465a-851c-b2fe202aa8ae",
+    "nome": "Ordinary Bear",
+    "edicao": "HOB",
+    "numero": "133",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-134-b4ff1eac-6d97-40ab-9b7c-c2fdca0917d9",
+    "nome": "Part in Friendship",
+    "edicao": "HOB",
+    "numero": "134",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-135-5900a0b4-aa89-4019-94c9-7e9ea3b4792e",
+    "nome": "Quarrel",
+    "edicao": "HOB",
+    "numero": "135",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-136-5741bbad-a6e4-45e0-b827-73f48c9975bf",
+    "nome": "Radagast of Rhosgobel",
+    "edicao": "HOB",
+    "numero": "136",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-137-880adfc8-69cf-4062-a804-e65b6cb6056d",
+    "nome": "Through the Forest Gate",
+    "edicao": "HOB",
+    "numero": "137",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-138-ca0f7bf4-b8a2-4ec4-ad7e-b639de9fa76a",
+    "nome": "Troll Negotiations",
+    "edicao": "HOB",
+    "numero": "138",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-139-b06d9cee-bb0f-4fe7-ab2a-b55d36461aec",
+    "nome": "Warg Tactics",
+    "edicao": "HOB",
+    "numero": "139",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-140-1ccbf823-846f-4f09-9c67-1deebb5d1d92",
+    "nome": "Wargling",
+    "edicao": "HOB",
+    "numero": "140",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-141-63078f42-f404-4c61-86be-45d934393b0a",
+    "nome": "Wilderland Scrounger",
+    "edicao": "HOB",
+    "numero": "141",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-142-2476e42b-b209-4207-8ed9-cb668f89b218",
+    "nome": "Wood Elves",
+    "edicao": "HOB",
+    "numero": "142",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-143-fe2b4bcf-56de-44d3-83af-aeb27f82c25e",
+    "nome": "Woodland Weavemaster",
+    "edicao": "HOB",
+    "numero": "143",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-144-c05c2aa6-29c7-40f8-872e-91099b9225c4",
+    "nome": "Bard, King of Dale",
+    "edicao": "HOB",
+    "numero": "144",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-145-0b84e232-428c-424a-848c-ef95debc6e50",
+    "nome": "Bard the Bowman",
+    "edicao": "HOB",
+    "numero": "145",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-146-d14aa2ff-7bbd-47a6-8e36-481e56302a62",
+    "nome": "Bard's Company",
+    "edicao": "HOB",
+    "numero": "146",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-147-ee88cc80-8fbf-451c-b2b8-09158426c26a",
+    "nome": "Bifur, Melodic Rider",
+    "edicao": "HOB",
+    "numero": "147",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-148-7b2d2a7f-88e0-45a9-8579-a6736bcd66eb",
+    "nome": "Bolg of the North",
+    "edicao": "HOB",
+    "numero": "148",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-149-ea3f5644-f7e3-40de-ada5-cea2e9113cfb",
+    "nome": "Bolg's Company",
+    "edicao": "HOB",
+    "numero": "149",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-150-c397a298-bf7f-49d7-a26a-206ccf9e8120",
+    "nome": "The Chief Warg",
+    "edicao": "HOB",
+    "numero": "150",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-151-bbc634af-63d2-444a-8123-85f16fe3e364",
+    "nome": "Chief Warg's Company",
+    "edicao": "HOB",
+    "numero": "151",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-152-36db4405-8589-481f-b627-f26087488337",
+    "nome": "Dáin's Company",
+    "edicao": "HOB",
+    "numero": "152",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-153-3685c783-d837-4466-a960-ab3098db64c3",
+    "nome": "Duskwatch Hunter",
+    "edicao": "HOB",
+    "numero": "153",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-154-196d9287-a37d-4b27-a83b-a5489a54f081",
+    "nome": "Dwalin, Weaponmaster",
+    "edicao": "HOB",
+    "numero": "154",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-155-12c8f2cc-ac9d-4cf6-9025-efe366b4e07f",
+    "nome": "Eagle's Rescue",
+    "edicao": "HOB",
+    "numero": "155",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-156-2efe2dc7-3eaa-47f6-b1ae-f974c4a8ae79",
+    "nome": "Fearsome Goblin Pair",
+    "edicao": "HOB",
+    "numero": "156",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-157-cb982607-da37-4894-91a5-cf6307d4d703",
+    "nome": "Goblin Plate Mail",
+    "edicao": "HOB",
+    "numero": "157",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-158-78d8f53e-537d-4eaa-99e3-cac57fa53d22",
+    "nome": "The Great Goblin",
+    "edicao": "HOB",
+    "numero": "158",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-159-50202288-f433-4b56-8f60-349bda7b4f6b",
+    "nome": "Large Bear",
+    "edicao": "HOB",
+    "numero": "159",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-160-704b45e4-566e-40f6-a33a-9151018b44e5",
+    "nome": "Mirkwood Nurturer",
+    "edicao": "HOB",
+    "numero": "160",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-161-b05adb48-980c-49a0-9ce6-7c7f3f20715d",
+    "nome": "Nori, Teller of Tales",
+    "edicao": "HOB",
+    "numero": "161",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-162-e4800508-8bb9-41bb-8712-b55fba7a80a5",
+    "nome": "Patient Instructor",
+    "edicao": "HOB",
+    "numero": "162",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-163-c71b74fb-fb0c-4953-b536-7a3f283c6918",
+    "nome": "Silvan Reveler",
+    "edicao": "HOB",
+    "numero": "163",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-164-19cc91f0-e724-41ac-b6d8-9a293bd63b42",
+    "nome": "Smaug, Wicked Worm",
+    "edicao": "HOB",
+    "numero": "164",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-165-c7e18609-d1ed-4829-be11-f2ce2cfcbc49",
+    "nome": "Thorin Oakenshield",
+    "edicao": "HOB",
+    "numero": "165",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-166-481870ee-d1f7-421b-86e1-570ea933bbbc",
+    "nome": "Thranduil, Sindarin Liege // Silvan Rally",
+    "edicao": "HOB",
+    "numero": "166",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-167-fe2fe8fa-3b99-44c1-bab9-922e5c864952",
+    "nome": "Thranduil, the Elvenking",
+    "edicao": "HOB",
+    "numero": "167",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-168-abdb9d4e-e6ca-409b-b589-0cf71724340b",
+    "nome": "Thranduil's Company",
+    "edicao": "HOB",
+    "numero": "168",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-169-211a9764-3c60-46ba-bb53-e6692640ec8f",
+    "nome": "Tom, Bert, and William",
+    "edicao": "HOB",
+    "numero": "169",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-170-a56a88ba-fcfa-4b56-bdae-a080b297b871",
+    "nome": "The Arkenstone // Seek the Heart",
+    "edicao": "HOB",
+    "numero": "170",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-171-ab181190-d53d-4972-8cd5-8e54b45f2276",
+    "nome": "The Black Arrow",
+    "edicao": "HOB",
+    "numero": "171",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-172-92c6f09d-b525-4e8c-a87c-a74df9dc3b1e",
+    "nome": "Dwarven Mattock",
+    "edicao": "HOB",
+    "numero": "172",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-173-ce254758-c928-4b43-a952-13fac1845668",
+    "nome": "Giant's Boulder",
+    "edicao": "HOB",
+    "numero": "173",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-174-a5cfbfde-783e-46ca-b3cf-11f16209d6cb",
+    "nome": "Glamdring, Foe-hammer // Gleam of Death",
+    "edicao": "HOB",
+    "numero": "174",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-175-898c14a2-d897-4341-83ed-eee666df9648",
+    "nome": "Key to the Side-Door",
+    "edicao": "HOB",
+    "numero": "175",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-176-15ae4d50-be2f-412c-bb6b-b0a06b60474a",
+    "nome": "My Precious // Allure of Power",
+    "edicao": "HOB",
+    "numero": "176",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-177-f54f1c1d-6a22-43e9-a842-0a1ae25b323c",
+    "nome": "Orcrist, Goblin-cleaver",
+    "edicao": "HOB",
+    "numero": "177",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-178-d6a8d698-c454-42c4-ad4e-9a7625d5569f",
+    "nome": "Sting, Bilbo's Sword",
+    "edicao": "HOB",
+    "numero": "178",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-179-ad0dba36-d056-4bc1-987a-391da26ad267",
+    "nome": "Thrór's Map",
+    "edicao": "HOB",
+    "numero": "179",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-180-659b687f-4068-496f-81b2-7b606bf07ec1",
+    "nome": "Well-Worn Spatula",
+    "edicao": "HOB",
+    "numero": "180",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-181-dd1fd2ab-2565-4798-a832-fc849df82f74",
+    "nome": "Elven Passage",
+    "edicao": "HOB",
+    "numero": "181",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-182-cd477096-41b1-4907-9cb3-852cb22c9ba2",
+    "nome": "Elvenking's Halls",
+    "edicao": "HOB",
+    "numero": "182",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-183-d76df9d0-56cf-4351-a5e8-e6ae6fc791d1",
+    "nome": "Goblin-town",
+    "edicao": "HOB",
+    "numero": "183",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-184-0365c439-30bf-4d32-a791-166751bdb996",
+    "nome": "Hobbit Hole",
+    "edicao": "HOB",
+    "numero": "184",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-185-78045c43-5cbe-48ff-837d-e7c6baac2937",
+    "nome": "Iron Hills",
+    "edicao": "HOB",
+    "numero": "185",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-186-2fbd0584-81a7-4c47-8af1-1c8635899a97",
+    "nome": "Lake-town",
+    "edicao": "HOB",
+    "numero": "186",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-187-b39ebc4d-a01a-4401-ab3a-bf6142c93b47",
+    "nome": "The Lonely Mountain",
+    "edicao": "HOB",
+    "numero": "187",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-188-612cf954-f86c-4629-99df-4874d56fded3",
+    "nome": "Mirkwood",
+    "edicao": "HOB",
+    "numero": "188",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-189-7b7c408b-8660-4db5-9a16-5003c11b4ac1",
+    "nome": "Plains",
+    "edicao": "HOB",
+    "numero": "189",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-190-c6aa89a8-3584-4906-b9a9-41ef2f021f8e",
+    "nome": "Island",
+    "edicao": "HOB",
+    "numero": "190",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-191-4031e5e4-e573-4130-8d20-4a606edef0a0",
+    "nome": "Swamp",
+    "edicao": "HOB",
+    "numero": "191",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-192-c49d378e-9549-4320-b3c6-1aeb216d1e98",
+    "nome": "Mountain",
+    "edicao": "HOB",
+    "numero": "192",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-193-c3e84b42-5423-4d4d-b8fc-cfbb2c53a4ca",
+    "nome": "Forest",
+    "edicao": "HOB",
+    "numero": "193",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-194-24dc369c-020a-4115-a4bb-d60a44de64e3",
+    "nome": "Plains",
+    "edicao": "HOB",
+    "numero": "194",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-195-739aaaac-c424-4ea7-a084-62a6fc0438b0",
+    "nome": "Island",
+    "edicao": "HOB",
+    "numero": "195",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-196-c5f590a3-9993-4ac4-a93c-1beb44eda17b",
+    "nome": "Swamp",
+    "edicao": "HOB",
+    "numero": "196",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-197-51acfb01-4b0b-48fc-9704-a9b4a1e43a23",
+    "nome": "Mountain",
+    "edicao": "HOB",
+    "numero": "197",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-198-5f533364-0f91-4e49-aaeb-83c4c1f6d316",
+    "nome": "Forest",
+    "edicao": "HOB",
+    "numero": "198",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-199-6cbcd606-b864-4b81-9596-e7788befdd1f",
+    "nome": "Troop of Ponies",
+    "edicao": "HOB",
+    "numero": "199",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-200-349d7464-e778-4a24-a528-d31d36ff4799",
+    "nome": "Rage into the Valley",
+    "edicao": "HOB",
+    "numero": "200",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-201-720ae752-c3a7-4bc0-bc0f-a9772bea3960",
+    "nome": "The Great Goblin",
+    "edicao": "HOB",
+    "numero": "201",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-202-b6d8d14d-4713-40ea-9509-81ce68b2184d",
+    "nome": "Thorin Oakenshield",
+    "edicao": "HOB",
+    "numero": "202",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-203-ccf2923e-5358-4e40-bc64-2953ac2d1692",
+    "nome": "Gandalf, Spark Starter",
+    "edicao": "HOB",
+    "numero": "203",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-204-53cd94e9-6006-4d43-8032-7920103740fa",
+    "nome": "Glamdring, Foe-hammer // Gleam of Death",
+    "edicao": "HOB",
+    "numero": "204",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-205-62a7ff97-b940-4745-9e2e-3258fb51b846",
+    "nome": "The Eagles Are Coming!",
+    "edicao": "HOB",
+    "numero": "205",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-206-1d84b0f8-aa9d-46b5-b46d-cb291aa6af9a",
+    "nome": "Dreaded Bat-Cloud",
+    "edicao": "HOB",
+    "numero": "206",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-207-0015ae49-bc21-4cf3-bb46-3df52760e183",
+    "nome": "The Lonely Mountain",
+    "edicao": "HOB",
+    "numero": "207",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-208-0dd7b2d8-ca9d-4125-b57e-9b14deae8d9b",
+    "nome": "Chief Warg's Company",
+    "edicao": "HOB",
+    "numero": "208",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-209-089e8e4b-c367-4d86-a69a-951f7d779aaf",
+    "nome": "Thorin's Last Stand",
+    "edicao": "HOB",
+    "numero": "209",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-210-7ca1300a-0ac3-413b-9617-5e8d1b5f1ca2",
+    "nome": "Bard's Company",
+    "edicao": "HOB",
+    "numero": "210",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-211-a2ba9d82-83b6-43dd-8eb8-2401be0df754",
+    "nome": "Bolg's Company",
+    "edicao": "HOB",
+    "numero": "211",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-212-323f7ae8-9247-479e-aead-f46018a3d81d",
+    "nome": "Dáin's Company",
+    "edicao": "HOB",
+    "numero": "212",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-213-fcdfce79-c8da-4662-93c2-054e5328e18c",
+    "nome": "Thranduil's Company",
+    "edicao": "HOB",
+    "numero": "213",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-214-0ff767b1-b04d-4d1d-bc91-3bd1361c5ee8",
+    "nome": "Belladonna Took",
+    "edicao": "HOB",
+    "numero": "214",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-215-a221baee-6ed1-4f11-b38c-e0be8531e170",
+    "nome": "Bofur, Reliable Guardian // Concerted Care",
+    "edicao": "HOB",
+    "numero": "215",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-216-6b428a9a-3a59-4416-b00b-78e2cb73e2d6",
+    "nome": "Iron Hills Blacksmith",
+    "edicao": "HOB",
+    "numero": "216",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-217-7d635dfb-0a48-4965-82d1-d98f943bb28d",
+    "nome": "The Queen of Dale",
+    "edicao": "HOB",
+    "numero": "217",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-218-b5fe776d-00c2-4d5d-9493-77dd754aa728",
+    "nome": "Bilbo, Luckwearer // Burglar's Plot",
+    "edicao": "HOB",
+    "numero": "218",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-219-dda07973-ed78-4f50-8794-f5cbfc6e8975",
+    "nome": "Bilbo, Thief in the Night",
+    "edicao": "HOB",
+    "numero": "219",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-220-958f0de2-d209-4e97-9ad4-dedf5da304b8",
+    "nome": "Fateful Discovery",
+    "edicao": "HOB",
+    "numero": "220",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-221-9093b067-e18e-4a6a-b4a6-cd67bcd4d5a7",
+    "nome": "Most Decrepit Old Bird // Speak Secrets",
+    "edicao": "HOB",
+    "numero": "221",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-222-0b9ef17a-02a4-44c6-b0b3-9eccf7f324fd",
+    "nome": "Azog, Moria's Ruin",
+    "edicao": "HOB",
+    "numero": "222",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-223-7f63f810-15a8-4bec-bd39-dbca453bcc1e",
+    "nome": "Great Ugly-Looking Goblin // Clap! Snap!",
+    "edicao": "HOB",
+    "numero": "223",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-224-d670ed30-e7e0-4908-ac9c-bdcab61092ef",
+    "nome": "Head of the Hunt",
+    "edicao": "HOB",
+    "numero": "224",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-225-3f4794de-701d-4619-8b8b-cbfdd860c567",
+    "nome": "Desert Were-Worm",
+    "edicao": "HOB",
+    "numero": "225",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-226-738d50ff-1bff-4841-93de-ccf521b2542f",
+    "nome": "Desolation of Smaug",
+    "edicao": "HOB",
+    "numero": "226",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-227-7c9bfc6e-648a-482b-9483-9e8538726f53",
+    "nome": "Glóin the Mighty // Easy Pickings",
+    "edicao": "HOB",
+    "numero": "227",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-228-ba42b0f3-3f2f-4fbe-b56d-c2cb477f1182",
+    "nome": "Last Light of Durin's Day",
+    "edicao": "HOB",
+    "numero": "228",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-229-4edcf8eb-d0b0-4aec-bec0-64c56982cdce",
+    "nome": "Smaug the Magnificent",
+    "edicao": "HOB",
+    "numero": "229",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-230-949e4c23-d0e7-4e11-abd4-33ff78b1c963",
+    "nome": "Beorn the Fierce",
+    "edicao": "HOB",
+    "numero": "230",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-231-85f488cf-eb8a-43f6-9ed8-523daba284fa",
+    "nome": "Dancing from Dark to Dawn",
+    "edicao": "HOB",
+    "numero": "231",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-232-b2b6ac15-2266-442a-99e5-96db904e1fd7",
+    "nome": "The Notary Hobbits",
+    "edicao": "HOB",
+    "numero": "232",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-233-0992ce8b-7bef-4799-a52d-7a46021a8672",
+    "nome": "Thranduil, Sindarin Liege // Silvan Rally",
+    "edicao": "HOB",
+    "numero": "233",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-234-ba3ff39b-b591-4434-8d41-4826d0809ca7",
+    "nome": "The Arkenstone // Seek the Heart",
+    "edicao": "HOB",
+    "numero": "234",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-235-ceb193ed-b05f-4820-a17f-e2982bf547ae",
+    "nome": "My Precious // Allure of Power",
+    "edicao": "HOB",
+    "numero": "235",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-236-758b4398-4522-49c8-94de-b0d647532544",
+    "nome": "Orcrist, Goblin-cleaver",
+    "edicao": "HOB",
+    "numero": "236",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-237-30420a65-65f2-4331-9a5d-b1771da936b0",
+    "nome": "Sting, Bilbo's Sword",
+    "edicao": "HOB",
+    "numero": "237",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-238-c9789696-a702-4294-afd7-c48e5fc84398",
+    "nome": "Elven Passage",
+    "edicao": "HOB",
+    "numero": "238",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-239-4a4ca473-3000-4e98-9881-03372c4f79a5",
+    "nome": "Gleaming Splendor",
+    "edicao": "HOB",
+    "numero": "239",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-240-8acfaac6-5a63-4fd6-999b-562e989e2ce1",
+    "nome": "The Lord of the Eagles",
+    "edicao": "HOB",
+    "numero": "240",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-241-0c13e282-bbfb-4601-94ff-803874634371",
+    "nome": "Gollum, Riddle Master",
+    "edicao": "HOB",
+    "numero": "241",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-242-efc66a6b-8ac7-4cb7-82f1-710fb0e86f82",
+    "nome": "Gandalf, Goblins' Bane // Flameshape",
+    "edicao": "HOB",
+    "numero": "242",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-243-2401d2a5-f65b-4a13-906c-999990589a1e",
+    "nome": "Thorin, Mountain-king",
+    "edicao": "HOB",
+    "numero": "243",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-244-a4adb258-381e-4e64-9f93-9fcf943be360",
+    "nome": "Bard, King of Dale",
+    "edicao": "HOB",
+    "numero": "244",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-245-189a7d55-c3ec-4402-a3b3-72817f533e87",
+    "nome": "Smaug, Wicked Worm",
+    "edicao": "HOB",
+    "numero": "245",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-246-a416ca91-e646-40b4-824c-24aed6b9c683",
+    "nome": "Thranduil, the Elvenking",
+    "edicao": "HOB",
+    "numero": "246",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-247-6c6193e8-453b-49dd-ad65-ee6e363bff93",
+    "nome": "The Arkenstone // Seek the Heart",
+    "edicao": "HOB",
+    "numero": "247",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-248-d9919a30-d60e-438e-b132-22e56b3cdf68",
+    "nome": "The Lonely Mountain",
+    "edicao": "HOB",
+    "numero": "248",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-249-43c56e15-ba46-4a27-b9b0-55cde9f8c933",
+    "nome": "Smaug the Magnificent",
+    "edicao": "HOB",
+    "numero": "249",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-250-f2522398-39d2-43d3-9019-349e22438f65",
+    "nome": "Belladonna Took",
+    "edicao": "HOB",
+    "numero": "250",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-251-7d9a89d1-3122-4fd8-b77f-5163c01b560c",
+    "nome": "Bofur, Reliable Guardian // Concerted Care",
+    "edicao": "HOB",
+    "numero": "251",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-252-8b592de0-0bf9-4972-9f43-c8ac1c3a1299",
+    "nome": "Iron Hills Blacksmith",
+    "edicao": "HOB",
+    "numero": "252",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-253-4cff1878-3f23-4a0a-ad79-28a44921cca8",
+    "nome": "The Queen of Dale",
+    "edicao": "HOB",
+    "numero": "253",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-254-79892a5d-80df-4ee1-b482-30e57aaabf21",
+    "nome": "Bilbo, Luckwearer // Burglar's Plot",
+    "edicao": "HOB",
+    "numero": "254",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-255-c0c313d6-5a76-459d-9db1-9491c57861fe",
+    "nome": "Bilbo, Thief in the Night",
+    "edicao": "HOB",
+    "numero": "255",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-256-6a928a14-b906-402f-96e4-8b9391d6536c",
+    "nome": "Fateful Discovery",
+    "edicao": "HOB",
+    "numero": "256",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-257-289a6c72-3d0d-402d-8e27-9ad0e254d5f6",
+    "nome": "Most Decrepit Old Bird // Speak Secrets",
+    "edicao": "HOB",
+    "numero": "257",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-258-2e359014-f003-4dd6-bc97-ef2a5c515a23",
+    "nome": "Azog, Moria's Ruin",
+    "edicao": "HOB",
+    "numero": "258",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-259-68fe7914-21b4-44eb-9432-3b1637864bc1",
+    "nome": "Great Ugly-Looking Goblin // Clap! Snap!",
+    "edicao": "HOB",
+    "numero": "259",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-260-77d2a543-d94f-4814-a60f-72c224e5768a",
+    "nome": "Head of the Hunt",
+    "edicao": "HOB",
+    "numero": "260",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-261-cfe91642-7651-4902-8386-b18cfb506925",
+    "nome": "Desert Were-Worm",
+    "edicao": "HOB",
+    "numero": "261",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-262-4bb4033e-8b96-4c35-ab03-ff188002ae73",
+    "nome": "Desolation of Smaug",
+    "edicao": "HOB",
+    "numero": "262",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-263-5546390b-3957-4e3b-aa64-85692381f53f",
+    "nome": "Glóin the Mighty // Easy Pickings",
+    "edicao": "HOB",
+    "numero": "263",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-264-7cb22e85-8d54-48a9-a006-d6e2f3ff00e1",
+    "nome": "Last Light of Durin's Day",
+    "edicao": "HOB",
+    "numero": "264",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-265-b6529666-0ec8-45a8-8740-3bffc19d2265",
+    "nome": "Smaug the Magnificent",
+    "edicao": "HOB",
+    "numero": "265",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-266-9f921e6b-12f0-4497-86ee-f2b4f4fa319a",
+    "nome": "Beorn the Fierce",
+    "edicao": "HOB",
+    "numero": "266",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-267-9fa9a9de-ca46-4ea1-8fdb-4ccd3ef86805",
+    "nome": "Dancing from Dark to Dawn",
+    "edicao": "HOB",
+    "numero": "267",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-268-0e88b614-f5b3-4e1e-beed-3c49e366be11",
+    "nome": "The Notary Hobbits",
+    "edicao": "HOB",
+    "numero": "268",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-269-a84cd965-fe5f-42e5-9775-d0285fe84308",
+    "nome": "Thranduil, Sindarin Liege // Silvan Rally",
+    "edicao": "HOB",
+    "numero": "269",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-270-2d08a806-c70d-4421-a9eb-e29e54e4268f",
+    "nome": "The Arkenstone // Seek the Heart",
+    "edicao": "HOB",
+    "numero": "270",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-271-ce239994-1bc6-4083-b9cf-776e862c5479",
+    "nome": "My Precious // Allure of Power",
+    "edicao": "HOB",
+    "numero": "271",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-272-a496a9e4-8dd7-44a2-a4b2-d4ecfc8ee7c8",
+    "nome": "Orcrist, Goblin-cleaver",
+    "edicao": "HOB",
+    "numero": "272",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-273-7d57f11f-1698-4cf3-bb0e-bd9b0ea8442d",
+    "nome": "Sting, Bilbo's Sword",
+    "edicao": "HOB",
+    "numero": "273",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-274-75cb4095-b252-49b0-ad2e-0ea52ae4709a",
+    "nome": "Elven Passage",
+    "edicao": "HOB",
+    "numero": "274",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-275-42a1986c-9585-4544-b5a7-bee4be5c4506",
+    "nome": "Gleaming Splendor",
+    "edicao": "HOB",
+    "numero": "275",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-276-b0f29cce-324d-4229-8e29-692594b2e3c7",
+    "nome": "The Lord of the Eagles",
+    "edicao": "HOB",
+    "numero": "276",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-277-12d441b7-9349-47a1-b61e-9d563bc085b5",
+    "nome": "Gollum, Riddle Master",
+    "edicao": "HOB",
+    "numero": "277",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-278-0db45ef8-5bc5-4914-9918-dae4ebf48153",
+    "nome": "Gandalf, Goblins' Bane // Flameshape",
+    "edicao": "HOB",
+    "numero": "278",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-279-0e29ba51-763c-48ec-95ec-9d6916f4db44",
+    "nome": "Thorin, Mountain-king",
+    "edicao": "HOB",
+    "numero": "279",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-280-f7c75c32-a24f-46e5-9128-2df9a2ec11f9",
+    "nome": "Bard, King of Dale",
+    "edicao": "HOB",
+    "numero": "280",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-281-5091e2bd-247d-4a1d-adf4-6e66324ee20b",
+    "nome": "Smaug, Wicked Worm",
+    "edicao": "HOB",
+    "numero": "281",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-282-49539856-989e-4f95-8e67-9cff4408cd87",
+    "nome": "Thranduil, the Elvenking",
+    "edicao": "HOB",
+    "numero": "282",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-283-9a0d62ce-8fd3-4465-b3aa-5d5052df30dc",
+    "nome": "The Arkenstone // Seek the Heart",
+    "edicao": "HOB",
+    "numero": "283",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-284-edff761b-2c2a-414f-b0a3-25c3fdbcb0bc",
+    "nome": "The Lonely Mountain",
+    "edicao": "HOB",
+    "numero": "284",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-285-fa74ca8a-8bcd-4dc5-ab2b-a2e18a70978e",
+    "nome": "Bilbo's Gambit",
+    "edicao": "HOB",
+    "numero": "285",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-286-0e4a1096-c40e-4471-8a44-9c2acad85769",
+    "nome": "Fíli the Pathfinder",
+    "edicao": "HOB",
+    "numero": "286",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-287-c241a594-24bc-4fd9-ac6d-501d11dddad1",
+    "nome": "Kíli the Resourceful",
+    "edicao": "HOB",
+    "numero": "287",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-288-a132a86d-1df2-42d1-a410-2a8479c84a55",
+    "nome": "Settle the Wreckage",
+    "edicao": "HOB",
+    "numero": "288",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-289-f75207fd-89d2-417b-8f36-4ea96b4e3794",
+    "nome": "An Unexpected Party // At the Door",
+    "edicao": "HOB",
+    "numero": "289",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-290-3e95e9c2-cdbf-48b8-a7d0-87267f58e5ac",
+    "nome": "Elrond, Moon-Reader",
+    "edicao": "HOB",
+    "numero": "290",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-291-d2b59872-0e11-41c3-9858-3e2dd5a1c3c3",
+    "nome": "Great Gilded Boat",
+    "edicao": "HOB",
+    "numero": "291",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-292-234e941d-ad86-4a3e-bd8c-0e680944919a",
+    "nome": "Riddles in the Dark",
+    "edicao": "HOB",
+    "numero": "292",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-293-1849eb57-7560-4ffc-9400-02387b1a71e6",
+    "nome": "Uncover the Moon-Letters",
+    "edicao": "HOB",
+    "numero": "293",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-294-14e69ca4-5148-44ec-bb21-330e656a6833",
+    "nome": "Wizard's Staff",
+    "edicao": "HOB",
+    "numero": "294",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-295-e340aa1c-a497-4fc4-9be9-26e7c982f893",
+    "nome": "Along the Crooked Way",
+    "edicao": "HOB",
+    "numero": "295",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-296-5913d004-0ef6-4dce-8f74-a8fbfc794d43",
+    "nome": "Inside Information",
+    "edicao": "HOB",
+    "numero": "296",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-297-d36d9c58-2bfe-418c-8512-fc4a3f229535",
+    "nome": "The Master of Lake-town",
+    "edicao": "HOB",
+    "numero": "297",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-298-df7bdf15-9448-4cb0-a809-c5ac128e6b02",
+    "nome": "Rhovanion Rampager",
+    "edicao": "HOB",
+    "numero": "298",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-299-11144267-15d1-47b4-8c26-d57328e11422",
+    "nome": "The Sackville-Bagginses",
+    "edicao": "HOB",
+    "numero": "299",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-300-de7a0139-ce52-4212-9514-b2daba282288",
+    "nome": "Supper for Spiders",
+    "edicao": "HOB",
+    "numero": "300",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-301-f3a8e4e3-58c5-4380-94b6-6252f8ccb285",
+    "nome": "Balin, Loremaster",
+    "edicao": "HOB",
+    "numero": "301",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-302-ff35d11c-6429-4aab-b9c8-0c0306f13db9",
+    "nome": "Dáin Ironfoot",
+    "edicao": "HOB",
+    "numero": "302",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-303-8db47144-e048-4996-9f9a-1184dd86151f",
+    "nome": "Getaway Barrel",
+    "edicao": "HOB",
+    "numero": "303",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-304-1adfc347-5c69-45e1-829b-aaae19e04b96",
+    "nome": "Stone-Giant of High Pass",
+    "edicao": "HOB",
+    "numero": "304",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-305-2b689d91-1ac0-474b-ae58-2c320e1af5e4",
+    "nome": "Bejeweled Warg",
+    "edicao": "HOB",
+    "numero": "305",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-306-ace0642f-fa57-4645-9891-43331b4963ed",
+    "nome": "Cantankerous Keepers",
+    "edicao": "HOB",
+    "numero": "306",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-307-0b6ed366-24a3-4697-8a87-12c54da7c238",
+    "nome": "Gigantic Big Bear",
+    "edicao": "HOB",
+    "numero": "307",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-308-46b3b094-0d1b-412e-8655-353ecbf983bb",
+    "nome": "Part in Friendship",
+    "edicao": "HOB",
+    "numero": "308",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-309-3ea01785-add0-487d-b708-5bbf71033899",
+    "nome": "Radagast of Rhosgobel",
+    "edicao": "HOB",
+    "numero": "309",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-310-f4408b22-c2b0-46ff-8d10-81d150c992ca",
+    "nome": "Through the Forest Gate",
+    "edicao": "HOB",
+    "numero": "310",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-311-6833cb81-a373-4b83-93b4-b1ed5f82ce54",
+    "nome": "Dwalin, Weaponmaster",
+    "edicao": "HOB",
+    "numero": "311",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-312-3909bdc4-e690-47fa-8cbc-4b437f7ab10c",
+    "nome": "Tom, Bert, and William",
+    "edicao": "HOB",
+    "numero": "312",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-313-c5b472d5-da70-4fd9-a68c-10e17797ad0d",
+    "nome": "Plains",
+    "edicao": "HOB",
+    "numero": "313",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-314-a3ae6956-7f2d-4569-a9f8-3972b5ec5e56",
+    "nome": "Plains",
+    "edicao": "HOB",
+    "numero": "314",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-315-8e07d3e6-c602-446f-a453-f54f13bfc55a",
+    "nome": "Plains",
+    "edicao": "HOB",
+    "numero": "315",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-316-15dd9a36-55df-4942-a7eb-1c49a7999e68",
+    "nome": "Plains",
+    "edicao": "HOB",
+    "numero": "316",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-317-3550f914-cacb-4849-af06-1a7b25c2c95f",
+    "nome": "Plains",
+    "edicao": "HOB",
+    "numero": "317",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-318-f82548c7-24ed-4529-8b57-7407dc0b8c8b",
+    "nome": "Plains",
+    "edicao": "HOB",
+    "numero": "318",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-319-46c75f8e-6590-4338-abbd-a37e08dbd58c",
+    "nome": "Plains",
+    "edicao": "HOB",
+    "numero": "319",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-320-128226f4-a733-4f0a-ab2b-7789cfa8b443",
+    "nome": "Plains",
+    "edicao": "HOB",
+    "numero": "320",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOB-321-1aaf8a8a-1032-4ee5-9c18-2debb40ec561",
+    "nome": "The Misty Mountains Cold",
+    "edicao": "HOB",
+    "numero": "321",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOB",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-1-e1d12200-ae0b-4155-9853-3ffaf490c84c",
+    "nome": "Fíli and Kíli, Joyous",
+    "edicao": "HOC",
+    "numero": "1",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-2-f742a14a-0c84-4225-a314-04d5c32fef08",
+    "nome": "Gandalf, Party Guest",
+    "edicao": "HOC",
+    "numero": "2",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-3-773813a8-723f-4c26-9e0a-a01b2faada98",
+    "nome": "Thorin, King of Durin's Folk",
+    "edicao": "HOC",
+    "numero": "3",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-4-84a95ac5-e2f6-4cf5-bc5e-ac4410168c06",
+    "nome": "Bilbo, Fellow Conspirator",
+    "edicao": "HOC",
+    "numero": "4",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-5-028f284b-4b4c-44e2-8ded-bc59ec71250f",
+    "nome": "Bag End Banquet",
+    "edicao": "HOC",
+    "numero": "5",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-6-911bd55d-00c7-4362-ba2d-eef0a9dadb6c",
+    "nome": "Ori, Plate Stacker",
+    "edicao": "HOC",
+    "numero": "6",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-7-c1d49a74-231a-4d38-abfe-3e9b4afff9c2",
+    "nome": "Long-Lost Lances",
+    "edicao": "HOC",
+    "numero": "7",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-8-506b9df7-8236-4c6e-aebc-6b7e6fcd7e88",
+    "nome": "Dragon-Cursed Halls",
+    "edicao": "HOC",
+    "numero": "8",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-9-55872bce-08ce-4d4f-8951-9fa230f3e160",
+    "nome": "Smaug the Impenetrable",
+    "edicao": "HOC",
+    "numero": "9",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-10-8e603c26-0c51-4cee-b1de-ada73d5f7f27",
+    "nome": "Bilbo's Burglaring",
+    "edicao": "HOC",
+    "numero": "10",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-11-2b9d5820-a0b1-462d-a47c-4b6c6a549eca",
+    "nome": "Dragon's Desire",
+    "edicao": "HOC",
+    "numero": "11",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-12-67c30782-0d28-4ce7-ad5b-ffbffeb97584",
+    "nome": "Necklace of Girion",
+    "edicao": "HOC",
+    "numero": "12",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-13-0d153edc-b50f-4f64-ac6e-25db7a9ef3f6",
+    "nome": "Dawn of a New Age",
+    "edicao": "HOC",
+    "numero": "13",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-14-b8d7c21f-7a67-4cab-ac95-b0bc6eb3d8a2",
+    "nome": "Flowering of the White Tree",
+    "edicao": "HOC",
+    "numero": "14",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-15-9c264afd-ea8b-435c-bb01-c754d44ba4a5",
+    "nome": "The Gaffer",
+    "edicao": "HOC",
+    "numero": "15",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-16-1b258c47-48b8-4787-9af7-1635cc17dff6",
+    "nome": "Galadriel's Dismissal",
+    "edicao": "HOC",
+    "numero": "16",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-17-fa2eca1b-96d6-4707-88ca-951bb7913cc9",
+    "nome": "Reprieve",
+    "edicao": "HOC",
+    "numero": "17",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-18-2a7b9598-9234-4621-90e4-f578f2f84983",
+    "nome": "Raise the Palisade",
+    "edicao": "HOC",
+    "numero": "18",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-19-881b6202-6d02-489b-b79c-62142c42ed1f",
+    "nome": "Orcish Bowmasters",
+    "edicao": "HOC",
+    "numero": "19",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-20-7170f930-8f94-4671-9acf-bf40913cbfa0",
+    "nome": "Witch-king of Angmar",
+    "edicao": "HOC",
+    "numero": "20",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-21-9a9e1edd-2a42-41a8-b089-66f3db080984",
+    "nome": "Witch-king, Bringer of Ruin",
+    "edicao": "HOC",
+    "numero": "21",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-22-4f3d805a-a152-4aa5-85ec-45195cf9e955",
+    "nome": "Call Forth the Tempest",
+    "edicao": "HOC",
+    "numero": "22",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-23-e70e4fba-4217-472a-9adb-f7d63424ef2f",
+    "nome": "Cavern-Hoard Dragon",
+    "edicao": "HOC",
+    "numero": "23",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-24-69d7bf6e-2309-4093-8a6e-db6b297556ed",
+    "nome": "Arwen, Weaver of Hope",
+    "edicao": "HOC",
+    "numero": "24",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-25-aad18e0d-ccf9-4d86-945b-36991558fd3e",
+    "nome": "Delighted Halfling",
+    "edicao": "HOC",
+    "numero": "25",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-26-ceb93bf0-ed21-4963-b87b-1b5b76ca5b1a",
+    "nome": "Elven Chorus",
+    "edicao": "HOC",
+    "numero": "26",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-27-2d7097c9-2076-4ebc-8c9e-aa596351588c",
+    "nome": "Last March of the Ents",
+    "edicao": "HOC",
+    "numero": "27",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-28-e1e75e94-7664-499e-9da1-97b56d44dd9e",
+    "nome": "Aragorn and Arwen, Wed",
+    "edicao": "HOC",
+    "numero": "28",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-29-9d8d618a-9786-4e71-9808-96a336325367",
+    "nome": "Aragorn, the Uniter",
+    "edicao": "HOC",
+    "numero": "29",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-30-a2055227-0a53-4b6b-b6d3-0eafc1884d4c",
+    "nome": "Arwen, Mortal Queen",
+    "edicao": "HOC",
+    "numero": "30",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-31-ac0930fa-cba7-406e-ba56-5d3e8a16f603",
+    "nome": "Flame of Anor",
+    "edicao": "HOC",
+    "numero": "31",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-32-fea53448-fc0d-45bb-8d30-03720865b541",
+    "nome": "Galadriel, Light of Valinor",
+    "edicao": "HOC",
+    "numero": "32",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-33-3c8f0bfc-767a-411c-b870-f2764f3706f4",
+    "nome": "Gríma, Saruman's Footman",
+    "edicao": "HOC",
+    "numero": "33",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-34-692fcfe3-1057-4290-aaea-f4d50f642c05",
+    "nome": "Lotho, Corrupt Shirriff",
+    "edicao": "HOC",
+    "numero": "34",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-35-62c8fa9c-d8ba-4ce0-946c-42fdc26b49d1",
+    "nome": "Saruman of Many Colors",
+    "edicao": "HOC",
+    "numero": "35",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-36-dd6dd9dc-ef2a-4806-a3e4-0597288a8162",
+    "nome": "Sauron, the Dark Lord",
+    "edicao": "HOC",
+    "numero": "36",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-37-ea2d0f3e-45d0-4abb-a2bb-d893f87301c2",
+    "nome": "Sauron, the Lidless Eye",
+    "edicao": "HOC",
+    "numero": "37",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-38-8040d3ba-7601-4b99-a98a-2411ec1b717d",
+    "nome": "Tom Bombadil",
+    "edicao": "HOC",
+    "numero": "38",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-39-0f2a60c5-09ca-49e4-90bd-9dadc56dddf2",
+    "nome": "Andúril, Flame of the West",
+    "edicao": "HOC",
+    "numero": "39",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-40-5c495189-451e-46ca-9a71-825dab50a0e7",
+    "nome": "Andúril, Narsil Reforged",
+    "edicao": "HOC",
+    "numero": "40",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-41-67a4e16b-df1b-4b57-a388-add58eae5a24",
+    "nome": "Bilbo's Ring",
+    "edicao": "HOC",
+    "numero": "41",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-42-ba4b13c5-ef17-4bde-80e1-59d7587c123b",
+    "nome": "Glamdring",
+    "edicao": "HOC",
+    "numero": "42",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-43-b19d533b-0081-4744-8fc8-5e864ddb39ba",
+    "nome": "Mithril Coat",
+    "edicao": "HOC",
+    "numero": "43",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-44-bdd2c783-1483-490a-ae93-c4664a0a9564",
+    "nome": "The One Ring",
+    "edicao": "HOC",
+    "numero": "44",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-45-a6a887e4-7cee-4107-8a9a-afbfa2e91bdc",
+    "nome": "Palantír of Orthanc",
+    "edicao": "HOC",
+    "numero": "45",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-46-8caea27b-040e-43c6-a8e0-0f3c0e40f411",
+    "nome": "Relic of Sauron",
+    "edicao": "HOC",
+    "numero": "46",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-47-db3710f3-fd63-43d9-b9d6-dfac041954fa",
+    "nome": "The Black Gate",
+    "edicao": "HOC",
+    "numero": "47",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-48-27b2d8b7-3160-4a51-a898-a3c05180ff75",
+    "nome": "Minas Morgul, Dark Fortress",
+    "edicao": "HOC",
+    "numero": "48",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-49-638c45e2-91d0-4ced-8bf7-64b2817b281a",
+    "nome": "Minas Tirith",
+    "edicao": "HOC",
+    "numero": "49",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-50-f8d7f58c-bb5b-4cbe-8771-d668bef27bda",
+    "nome": "Mount Doom",
+    "edicao": "HOC",
+    "numero": "50",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-51-1127eb51-50ef-47f3-abfe-48895c832296",
+    "nome": "Rivendell",
+    "edicao": "HOC",
+    "numero": "51",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-52-bc4895f4-d16f-4af6-b681-735131b886c4",
+    "nome": "The Shire",
+    "edicao": "HOC",
+    "numero": "52",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-53-58c9ef2f-cd9a-4e71-85a4-f0f0e5cb1130",
+    "nome": "Dawn of a New Age",
+    "edicao": "HOC",
+    "numero": "53",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-54-99dc452c-f6a1-4f40-9262-3c5a6deaf092",
+    "nome": "Flowering of the White Tree",
+    "edicao": "HOC",
+    "numero": "54",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-55-4b4db080-dc29-40ca-a8ff-a7c8d5f87853",
+    "nome": "The Gaffer",
+    "edicao": "HOC",
+    "numero": "55",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-56-441802e0-cfd4-4c41-bc45-8babbe39f6d9",
+    "nome": "Galadriel's Dismissal",
+    "edicao": "HOC",
+    "numero": "56",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-57-d2afc2b0-bd68-494b-9952-1fe53213552f",
+    "nome": "Reprieve",
+    "edicao": "HOC",
+    "numero": "57",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-58-6413aeeb-6a11-42c3-9cd9-dcf2ebde58fc",
+    "nome": "Raise the Palisade",
+    "edicao": "HOC",
+    "numero": "58",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-59-fd845750-f253-4eb0-9903-1f4d5fac014e",
+    "nome": "Orcish Bowmasters",
+    "edicao": "HOC",
+    "numero": "59",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-60-06ad9b5e-6ef0-40c5-8ea3-ddca5d5d965c",
+    "nome": "Witch-king of Angmar",
+    "edicao": "HOC",
+    "numero": "60",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-61-84738f2f-7eab-49c3-b936-ec1934a11127",
+    "nome": "Witch-king, Bringer of Ruin",
+    "edicao": "HOC",
+    "numero": "61",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-62-1595281c-8d1d-4ad6-8197-01a0fc3b6087",
+    "nome": "Call Forth the Tempest",
+    "edicao": "HOC",
+    "numero": "62",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-63-f91355e4-097d-417b-9c26-e7e83d9ece3b",
+    "nome": "Cavern-Hoard Dragon",
+    "edicao": "HOC",
+    "numero": "63",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-64-e6ba967b-8832-4a98-8685-36acdfb1a53b",
+    "nome": "Arwen, Weaver of Hope",
+    "edicao": "HOC",
+    "numero": "64",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-65-9158f904-bf34-4cc0-9a6c-34893da29f22",
+    "nome": "Delighted Halfling",
+    "edicao": "HOC",
+    "numero": "65",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-66-804e1b6f-f62b-4e43-a21f-cd3f11d4b0d9",
+    "nome": "Elven Chorus",
+    "edicao": "HOC",
+    "numero": "66",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-67-98960275-41e6-41aa-951a-022dc148fd36",
+    "nome": "Last March of the Ents",
+    "edicao": "HOC",
+    "numero": "67",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-68-a2ef302c-c20e-42ec-a4c3-87ba0cdb51f1",
+    "nome": "Aragorn and Arwen, Wed",
+    "edicao": "HOC",
+    "numero": "68",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-69-1b868c39-0fdc-4152-991e-3bc60a90d1ec",
+    "nome": "Aragorn, the Uniter",
+    "edicao": "HOC",
+    "numero": "69",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-70-392c3816-b2b2-48e8-970f-b407fa692368",
+    "nome": "Arwen, Mortal Queen",
+    "edicao": "HOC",
+    "numero": "70",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-71-1c8873a1-e324-4342-ba63-0bc1bc812e3b",
+    "nome": "Flame of Anor",
+    "edicao": "HOC",
+    "numero": "71",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-72-2e14edc5-9a68-4aef-baf6-43e7a6b732b5",
+    "nome": "Galadriel, Light of Valinor",
+    "edicao": "HOC",
+    "numero": "72",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-73-d929f47b-285e-4fce-837d-730f4f88cb99",
+    "nome": "Gríma, Saruman's Footman",
+    "edicao": "HOC",
+    "numero": "73",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-74-2a363b0d-294e-4d43-a793-b90de0734390",
+    "nome": "Lotho, Corrupt Shirriff",
+    "edicao": "HOC",
+    "numero": "74",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-75-ea41a4f7-a283-4826-9f17-0e1f5bf248d5",
+    "nome": "Saruman of Many Colors",
+    "edicao": "HOC",
+    "numero": "75",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-76-22dd486a-dfb1-4553-8b0d-d9407cfda36a",
+    "nome": "Sauron, the Dark Lord",
+    "edicao": "HOC",
+    "numero": "76",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-77-dc49a0a4-baf4-4efd-a4d4-269179f93c7e",
+    "nome": "Sauron, the Lidless Eye",
+    "edicao": "HOC",
+    "numero": "77",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-78-c0c6f1e7-f16c-479c-bd0b-138488bd7942",
+    "nome": "Tom Bombadil",
+    "edicao": "HOC",
+    "numero": "78",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-79-47e706bd-4b4c-435d-882a-659dad68dc4d",
+    "nome": "Andúril, Flame of the West",
+    "edicao": "HOC",
+    "numero": "79",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-80-e9ee862f-c007-4685-af83-dec508d8ec80",
+    "nome": "Andúril, Narsil Reforged",
+    "edicao": "HOC",
+    "numero": "80",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-81-2960ba27-0d6f-49f1-a2ac-51a491200a51",
+    "nome": "Bilbo's Ring",
+    "edicao": "HOC",
+    "numero": "81",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-82-162a211d-621e-4a20-a732-2f4233e4fe48",
+    "nome": "Glamdring",
+    "edicao": "HOC",
+    "numero": "82",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-83-12232ee5-e564-44f0-b973-21a141e9bd89",
+    "nome": "Mithril Coat",
+    "edicao": "HOC",
+    "numero": "83",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-84-c2fed990-78fd-4688-8cac-9f57774297f6",
+    "nome": "The One Ring",
+    "edicao": "HOC",
+    "numero": "84",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-85-2c0bbe08-61cc-4ed8-8fb1-225d346542c7",
+    "nome": "Palantír of Orthanc",
+    "edicao": "HOC",
+    "numero": "85",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-86-c74e5574-cb43-4094-8f18-237734d3dddc",
+    "nome": "Relic of Sauron",
+    "edicao": "HOC",
+    "numero": "86",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-87-8d7c2182-1199-4c3a-be4d-c178ab604362",
+    "nome": "The Black Gate",
+    "edicao": "HOC",
+    "numero": "87",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-88-86d0093b-1af6-458a-8759-250bbaa77778",
+    "nome": "Minas Morgul, Dark Fortress",
+    "edicao": "HOC",
+    "numero": "88",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-89-fa9b1e96-8294-4306-8280-c6b187bea5d8",
+    "nome": "Minas Tirith",
+    "edicao": "HOC",
+    "numero": "89",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-90-2bb2e6cf-6e2d-4b0b-83d3-46aff575eee4",
+    "nome": "Mount Doom",
+    "edicao": "HOC",
+    "numero": "90",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-91-b1c307c6-7bb7-40c3-8b12-4bf95efac328",
+    "nome": "Rivendell",
+    "edicao": "HOC",
+    "numero": "91",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-92-8314297a-5c97-4d94-800c-0f9e42fca902",
+    "nome": "The Shire",
+    "edicao": "HOC",
+    "numero": "92",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-93-42a24675-d6a1-4e88-a2d1-ddbc1fdde322",
+    "nome": "Dwarven Warriors",
+    "edicao": "HOC",
+    "numero": "93",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-94-6431d2f1-44e7-4699-bc38-2e5222a5e243",
+    "nome": "The Reaver Cleaver",
+    "edicao": "HOC",
+    "numero": "94",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-95-e209610d-bd1f-4f81-9a88-a6d8a43fe1c7",
+    "nome": "Arcane Signet",
+    "edicao": "HOC",
+    "numero": "95",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-96-b89bcdd8-189e-41bb-bb3d-a53e6e6758e1",
+    "nome": "Mox Amber",
+    "edicao": "HOC",
+    "numero": "96",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-97-f4c65751-f037-4b60-a4ad-7ea41b3dc847",
+    "nome": "Treasure Vault",
+    "edicao": "HOC",
+    "numero": "97",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-98-c3540c92-60f3-4f32-89f2-4568d9c0fd4c",
+    "nome": "Bilbo, Unexpected Adventurer",
+    "edicao": "HOC",
+    "numero": "98",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-99-c659c9e5-5ec6-4c7f-80b2-e1782e6c3334",
+    "nome": "Gandalf, Shadow's Foe",
+    "edicao": "HOC",
+    "numero": "99",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-100-5b402a0c-4861-4b58-83b6-c754624cb6ea",
+    "nome": "Thorin, Company's Leader",
+    "edicao": "HOC",
+    "numero": "100",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-101-a5bf2146-0843-4e1b-ad07-29e3dc0e842f",
+    "nome": "Bard, Heir of Girion",
+    "edicao": "HOC",
+    "numero": "101",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-102-55f7866a-6727-4ae0-a0c0-367f29b9cea1",
+    "nome": "Bolg, Erebor's Reckoning",
+    "edicao": "HOC",
+    "numero": "102",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-103-67b99400-a53a-48c8-a4d0-21bf63274225",
+    "nome": "Chief of the Wilds",
+    "edicao": "HOC",
+    "numero": "103",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-104-f0c5ea58-c6b0-4cf0-bc5e-45c9aa780b91",
+    "nome": "Dáin of the Ancient Halls",
+    "edicao": "HOC",
+    "numero": "104",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-105-b3075281-fb5e-458b-8956-0d4ce01f710a",
+    "nome": "Great Goblin, Foul-Hearted",
+    "edicao": "HOC",
+    "numero": "105",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-106-6b4c1515-6127-4d4b-bdd2-e38bb68693e7",
+    "nome": "Thranduil the Strategist",
+    "edicao": "HOC",
+    "numero": "106",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-161-d53c7e49-745d-48ba-bc50-240472a4f039",
+    "nome": "Banishing Light",
+    "edicao": "HOC",
+    "numero": "161",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-162-2881c507-aa8f-40a7-9995-6170ee85c7ed",
+    "nome": "Dawn of a New Age",
+    "edicao": "HOC",
+    "numero": "162",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-163-c168a37c-1e51-42c8-b04c-3f0ecae01666",
+    "nome": "Dúnedain Blade",
+    "edicao": "HOC",
+    "numero": "163",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-164-068a5bf7-6faf-41d5-924d-cdf387c1a193",
+    "nome": "Eagles of the North",
+    "edicao": "HOC",
+    "numero": "164",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-165-e675d492-ffec-4234-9793-a16de3221f50",
+    "nome": "Errand-Rider of Gondor",
+    "edicao": "HOC",
+    "numero": "165",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-166-8c8bbf73-2b36-4c27-bb69-aadb25dd828c",
+    "nome": "Esquire of the King",
+    "edicao": "HOC",
+    "numero": "166",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-167-2b497736-e502-4e0c-b5dc-6ce5e9e8d4ab",
+    "nome": "Fiend Hunter",
+    "edicao": "HOC",
+    "numero": "167",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-168-7728c1a0-683c-4f07-bf68-e35602829bb0",
+    "nome": "Fog on the Barrow-Downs",
+    "edicao": "HOC",
+    "numero": "168",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-169-808029df-e1db-4fe0-b1ed-a75f8d496aa7",
+    "nome": "Landroval, Horizon Witness",
+    "edicao": "HOC",
+    "numero": "169",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-170-05b6a101-4d12-4f50-8f02-5c778e08b149",
+    "nome": "Mentor of the Meek",
+    "edicao": "HOC",
+    "numero": "170",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-171-aec09395-d3b3-4bb8-a4be-9b6d7c47efad",
+    "nome": "Soldier of the Grey Host",
+    "edicao": "HOC",
+    "numero": "171",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-172-fa7d2ec1-b6b7-4f37-a749-750e52c92e87",
+    "nome": "Westfold Rider",
+    "edicao": "HOC",
+    "numero": "172",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-173-68cd9cc8-047b-4e0c-b84c-d015d89eb713",
+    "nome": "Captain of Umbar",
+    "edicao": "HOC",
+    "numero": "173",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-174-a4d35a18-1c3c-4882-a318-5cf323350417",
+    "nome": "Colossal Whale",
+    "edicao": "HOC",
+    "numero": "174",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-175-b5200abb-64e5-4401-a231-be3ca69d24b7",
+    "nome": "Grey Havens Navigator",
+    "edicao": "HOC",
+    "numero": "175",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-176-74868f21-b8a2-4aa0-9431-3f2171bde9c3",
+    "nome": "Hithlain Knots",
+    "edicao": "HOC",
+    "numero": "176",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-177-8526b72e-936e-4592-9538-37acca0a6fc5",
+    "nome": "Ithilien Kingfisher",
+    "edicao": "HOC",
+    "numero": "177",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-178-a954c983-296a-448c-b8d8-ce04d82caaeb",
+    "nome": "Knights of Dol Amroth",
+    "edicao": "HOC",
+    "numero": "178",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-179-209204c7-aae5-4768-91b8-89c8c4d4a97f",
+    "nome": "Lórien Revealed",
+    "edicao": "HOC",
+    "numero": "179",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-180-bf30fc6c-9121-4d2d-be69-9d5e84250e4a",
+    "nome": "Minas Tirith Garrison",
+    "edicao": "HOC",
+    "numero": "180",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-181-838696b2-a813-4266-9476-cd0b67a781d5",
+    "nome": "Nimrodel Watcher",
+    "edicao": "HOC",
+    "numero": "181",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-182-767ab62c-59fd-4fda-8291-6170383a8ae0",
+    "nome": "Pelargir Survivor",
+    "edicao": "HOC",
+    "numero": "182",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-183-b2dee261-e02f-47ab-8468-3ef055004c8c",
+    "nome": "Stern Scolding",
+    "edicao": "HOC",
+    "numero": "183",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-184-fc19dc82-6608-4a2c-bdf5-27585cf86645",
+    "nome": "Willow-Wind",
+    "edicao": "HOC",
+    "numero": "184",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-185-3a4ac16c-eea8-40f9-a2b0-5016af0ac722",
+    "nome": "Bitter Downfall",
+    "edicao": "HOC",
+    "numero": "185",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-186-37a12935-c927-4d25-a7e5-17a0b6229c60",
+    "nome": "Haunt of the Dead Marshes",
+    "edicao": "HOC",
+    "numero": "186",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-187-e8701682-5b74-4855-adcf-7a1cf0c8cb41",
+    "nome": "Languish",
+    "edicao": "HOC",
+    "numero": "187",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-188-7b135177-4786-4ebe-98cd-c1db9444e577",
+    "nome": "Merciless Executioner",
+    "edicao": "HOC",
+    "numero": "188",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-189-e8399c2e-ecc8-41c9-a690-a0eeafb27f77",
+    "nome": "Night's Whisper",
+    "edicao": "HOC",
+    "numero": "189",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-190-2bf42714-dfbd-4da5-8eba-8b27ab4b4cdf",
+    "nome": "Shadow of the Enemy",
+    "edicao": "HOC",
+    "numero": "190",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-191-5edb0c1d-be6a-42b1-829c-ffbea3647ad8",
+    "nome": "Troll of Khazad-dûm",
+    "edicao": "HOC",
+    "numero": "191",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-192-289d3d6c-8f7b-42d9-be9c-59c93128d207",
+    "nome": "Battle-Scarred Goblin",
+    "edicao": "HOC",
+    "numero": "192",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-193-be2cf51a-11c6-4d52-85f9-9518133ba201",
+    "nome": "Fire of Orthanc",
+    "edicao": "HOC",
+    "numero": "193",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-194-e37ae38f-ef93-4861-9a3a-49378a4d50b4",
+    "nome": "Goblin Cratermaker",
+    "edicao": "HOC",
+    "numero": "194",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-195-f238d6c0-80fb-44f8-855b-55720fcff07f",
+    "nome": "Goblin Fireleaper",
+    "edicao": "HOC",
+    "numero": "195",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-196-f6bb1ffc-2251-4655-b8f9-4c8047dd5d5f",
+    "nome": "Guttersnipe",
+    "edicao": "HOC",
+    "numero": "196",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-197-7937d8c7-76c6-4343-9f5e-994cb9e6f42a",
+    "nome": "Improvised Club",
+    "edicao": "HOC",
+    "numero": "197",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-198-f839aadb-084e-4ddc-ba62-d654a695cc6b",
+    "nome": "Inferno Titan",
+    "edicao": "HOC",
+    "numero": "198",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-199-28b60f0b-6dd5-4e57-98ff-28effe8fcd55",
+    "nome": "Oliphaunt",
+    "edicao": "HOC",
+    "numero": "199",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-200-3cebc85a-a75f-47a4-b286-f66fe18303a7",
+    "nome": "Olog-hai Crusher",
+    "edicao": "HOC",
+    "numero": "200",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-201-dbce4474-7485-4ab7-8016-04f03bc90dc5",
+    "nome": "Orcish Siegemaster",
+    "edicao": "HOC",
+    "numero": "201",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-202-c7a56386-12c8-48c1-895c-9f3af29ea1d1",
+    "nome": "Smite the Deathless",
+    "edicao": "HOC",
+    "numero": "202",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-203-c88e946a-03dc-4730-8f74-e41dfaf28177",
+    "nome": "Celeborn the Wise",
+    "edicao": "HOC",
+    "numero": "203",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-204-006ff5a3-355b-4a7d-b402-bb3c8d32a585",
+    "nome": "Elvish Archdruid",
+    "edicao": "HOC",
+    "numero": "204",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-205-08b9a296-3b76-4f8f-9d71-7c9af92bb3b4",
+    "nome": "Elvish Mystic",
+    "edicao": "HOC",
+    "numero": "205",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-206-6d2f4a37-453f-4a2c-bfba-2d1227394c90",
+    "nome": "Elvish Visionary",
+    "edicao": "HOC",
+    "numero": "206",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-207-0571a6b2-548a-43ed-9357-a27095d2e894",
+    "nome": "Galadhrim Guide",
+    "edicao": "HOC",
+    "numero": "207",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-208-e945fa91-21c6-4a23-83ac-26f04c917908",
+    "nome": "Gift of Strands",
+    "edicao": "HOC",
+    "numero": "208",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-209-acc6a5d4-9a04-4a52-b2dc-0b0ab616a110",
+    "nome": "Lothlórien Lookout",
+    "edicao": "HOC",
+    "numero": "209",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-210-eda8bfa5-1e7d-442d-9d8c-651eb5630124",
+    "nome": "Mirkwood Elk",
+    "edicao": "HOC",
+    "numero": "210",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-211-b279f268-c37e-4a2d-8195-74f4881226fc",
+    "nome": "Wayfarer's Bauble",
+    "edicao": "HOC",
+    "numero": "211",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  },
+  {
+    "id": "HOC-212-4493b62b-f354-47ff-9dcf-cc6e29de77c6",
+    "nome": "Rogue's Passage",
+    "edicao": "HOC",
+    "numero": "212",
+    "quantidade": 0,
+    "foil": false,
+    "edicaoBase": "HOC",
+    "tratamento": "normal"
+  }
+]

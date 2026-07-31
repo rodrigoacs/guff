@@ -60,6 +60,30 @@ h1 {
   color: var(--text-primary);
 }
 
+/* --- SELETOR DE COLEÇÃO --- */
+.colecao-select {
+  background: var(--surface-secondary);
+  color: var(--text-primary);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-md);
+  padding: 8px 14px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  align-self: center;
+  outline: none;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.colecao-select:hover {
+  background: var(--surface-tertiary);
+}
+
+.colecao-select:focus {
+  border-color: var(--accent-color);
+  box-shadow: 0 0 0 4px rgba(229, 192, 123, 0.15);
+}
+
 .dashboard {
   width: 100%;
   max-width: 600px;
@@ -619,3 +643,91 @@ h1 {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+/* --- SKELETON DE CARREGAMENTO --- */
+.slot-skeleton {
+  background: linear-gradient(90deg, var(--surface-secondary) 25%, var(--surface-tertiary) 50%, var(--surface-secondary) 75%);
+  background-size: 200% 100%;
+  animation: skeleton-shimmer 1.4s ease-in-out infinite;
+}
+
+@keyframes skeleton-shimmer {
+  0% {
+    background-position: 200% 0;
+  }
+
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+/* --- ESTADO VAZIO (filtro/busca sem resultado) --- */
+.estado-vazio {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 48px 24px;
+  color: var(--text-secondary);
+  text-align: center;
+}
+
+.estado-vazio strong {
+  color: var(--text-primary);
+  font-size: 16px;
+}
+
+/* --- DIVISÓRIA DE EDIÇÃO (visualmente diferente de um slot vazio de verdade) --- */
+.slot-divisoria {
+  background: var(--surface-secondary);
+  border: none;
+  box-shadow: inset 0 0 0 2px var(--accent-color);
+  position: relative;
+  overflow: hidden;
+}
+
+.slot-divisoria::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(135deg,
+      rgba(229, 192, 123, 0.08) 0px,
+      rgba(229, 192, 123, 0.08) 8px,
+      transparent 8px,
+      transparent 16px);
+}
+
+.slot-divisoria .placeholder-text {
+  position: relative;
+  color: var(--accent-color);
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+
+/* --- FOIL PAUSADO (fora da viewport, economiza CPU/GPU) --- */
+.foil-pausado.efeito-foil::after {
+  animation-play-state: paused;
+}
+
+/* --- FEEDBACK DE CLIQUE NA QUANTIDADE --- */
+.qtd-valor.pulso {
+  animation: pulso-qtd 0.3s ease;
+}
+
+@keyframes pulso-qtd {
+  0% {
+    transform: scale(1);
+  }
+
+  40% {
+    transform: scale(1.35);
+    color: var(--accent-color);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
