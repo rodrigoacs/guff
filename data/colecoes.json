@@ -5,7 +5,8 @@
     "edicoesBase": [
       "LTR",
       "LTC"
-    ]
+    ],
+    "cor": "#E8B65A"
   },
   {
     "slug": "hobbit",
@@ -13,6 +14,7 @@
     "edicoesBase": [
       "HOB",
       "HOC"
-    ]
+    ],
+    "cor": "#E8B65A"
   }
 ]

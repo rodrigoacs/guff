@@ -5,23 +5,11 @@ import { fileURLToPath } from 'url'
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
-/**
- * CONFIGURAÇÃO DA COLEÇÃO
- * Isso é a ÚNICA parte que muda de uma coleção pra outra (ou use --config).
- *
- * - slug: identificador usado nas URLs (data/<slug>.json, public/cartas/<slug>/).
- *   Só letras minúsculas, números e hífen.
- * - nome: nome de exibição na tela.
- * - edicoesBase: as edições "raiz" da coleção, na ordem em que devem
- *   aparecer no fichário.
- * - siglasPorEdicao: quais siglas especiais da LigaMagic (promo, borderless,
- *   showcase etc.) pertencem a cada edição base. Sigla não mapeada cai na
- *   primeira edição de edicoesBase.
- */
 const CONFIG_PADRAO = {
   slug: 'ltr-ltc',
   nome: 'O Senhor dos Anéis (LTR/LTC)',
   edicoesBase: ['LTR', 'LTC'],
+  cor: '#E5C07B',
   siglasPorEdicao: {
     LTC: ['ltc', 'pltc', 'asltc', 'srltc', 'bhltc', 'bltc', 'bsltc', 'ssltc', 'tltc', 'sltc', 'sfltc', 'rrltc', 'vltc']
   },
@@ -39,6 +27,7 @@ function lerArgumentos() {
     else if (args[i] === '--nome') opcoes.nome = args[++i]
     else if (args[i] === '--backup') opcoes.arquivoBackup = args[++i]
     else if (args[i] === '--config') opcoes.arquivoConfig = args[++i]
+    else if (args[i] === '--cor') opcoes.cor = args[++i]
   }
 
   return opcoes
@@ -81,6 +70,7 @@ async function carregarConfig(opcoes) {
   if (opcoes.slug) config.slug = opcoes.slug
   if (opcoes.nome) config.nome = opcoes.nome
   if (opcoes.arquivoBackup) config.arquivoBackup = opcoes.arquivoBackup
+  if (opcoes.cor) config.cor = opcoes.cor
 
   validarConfig(config)
   return config
@@ -165,7 +155,7 @@ async function upsertColecao(config, caminhoColecoes) {
     // arquivo ainda não existe ou está vazio — começa do zero
   }
 
-  const entrada = { slug: config.slug, nome: config.nome, edicoesBase: config.edicoesBase }
+  const entrada = { slug: config.slug, nome: config.nome, edicoesBase: config.edicoesBase, cor: config.cor }
   const index = registro.findIndex(c => c.slug === config.slug)
 
   if (index === -1) registro.push(entrada)

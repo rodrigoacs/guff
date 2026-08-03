@@ -5,18 +5,12 @@ import { fileURLToPath } from 'url'
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
-/**
- * CONFIGURAÇÃO DA COLEÇÃO
- * Gera a lista inicial de uma coleção nova direto do Scryfall (quantidade 0 pra todas).
- * Ideal pra sets que você ainda não começou a colecionar fisicamente.
- *
- * Pra outra coleção, troque esses valores ou use os argumentos de linha de comando.
- */
 const CONFIG_PADRAO = {
   slug: 'hobbit',
   nome: 'O Hobbit (HOB/HOC)',
   query: '(set:hob or set:hoc) include:extras unique:prints',
-  edicoesBase: ['HOB', 'HOC']
+  edicoesBase: ['HOB', 'HOC'],
+  cor: '#6B8F71'
 }
 
 const SLUG_REGEX = /^[a-z0-9-]+$/
@@ -31,6 +25,7 @@ function lerArgumentos() {
     else if (args[i] === '--nome') opcoes.nome = args[++i]
     else if (args[i] === '--query') opcoes.query = args[++i]
     else if (args[i] === '--edicoes') opcoes.edicoesBase = args[++i].split(',').map(s => s.trim().toUpperCase())
+    else if (args[i] === '--cor') opcoes.cor = args[++i]
   }
 
   return opcoes
@@ -122,7 +117,7 @@ async function upsertColecao(config, caminhoColecoes) {
     // ainda não existe, começa do zero
   }
 
-  const entrada = { slug: config.slug, nome: config.nome, edicoesBase: config.edicoesBase }
+  const entrada = { slug: config.slug, nome: config.nome, edicoesBase: config.edicoesBase, cor: config.cor }
   const index = registro.findIndex(c => c.slug === config.slug)
   if (index === -1) registro.push(entrada)
   else registro[index] = { ...registro[index], ...entrada }

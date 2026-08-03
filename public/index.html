@@ -5,40 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Guff — Coleção de Magic</title>
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="navbar">
-      <div class="header-content">
-        <select id="seletor-colecao" class="colecao-select" aria-label="Escolher coleção">
-          <option value="">Carregando coleções...</option>
-        </select>
+    <header class="topbar">
+      <div class="topbar-inner">
+        <span class="wordmark">Guff</span>
+        <nav class="switcher" id="switcher" aria-label="Coleções"></nav>
+      </div>
+    </header>
 
-        <h1 id="titulo-colecao">Guff</h1>
-
-        <div class="dashboard">
-          <div class="stats" aria-live="polite">
-            <div class="stat-pill">
-              <span class="stat-label">Total</span>
-              <span class="stat-value" id="total-cartas">0</span>
-            </div>
-            <div class="stat-pill">
-              <span class="stat-label">Coletadas</span>
-              <span class="stat-value highlight" id="cartas-coletadas">0</span>
-            </div>
-            <div class="stat-pill">
-              <span class="stat-label">Faltam</span>
-              <span class="stat-value danger" id="cartas-faltantes">0</span>
-            </div>
-          </div>
+    <main class="page">
+      <section class="stat-row" aria-live="polite">
+        <div class="stat-percent" id="hero-percent">0%</div>
+        <div class="stat-body">
+          <h1 id="titulo-colecao">Guff</h1>
+          <p class="stat-legenda">
+            <span id="cartas-coletadas">0</span> de <span id="total-cartas">0</span> coletadas
+            <span class="stat-separador">·</span>
+            <span id="cartas-faltantes">0</span> faltam
+          </p>
           <div class="progress-container">
             <div class="progress-bar" id="progress-bar"></div>
           </div>
         </div>
-      </div>
-    </header>
+      </section>
 
-    <main class="container">
       <div class="controls-section">
         <input
           type="text"
@@ -83,7 +81,7 @@
       </div>
     </main>
 
-    <!-- Modal App-like -->
+    <!-- Modal -->
     <div id="modal-carta" class="modal" role="dialog" aria-modal="true" aria-label="Carta ampliada">
       <div class="modal-backdrop"></div>
       <div class="modal-wrapper">

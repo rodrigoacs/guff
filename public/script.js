@@ -9,14 +9,16 @@ document.addEventListener('DOMContentLoaded', () => {
   let paginaAtual = 1
   const CARTAS_POR_PAGINA = 36
   const CHAVE_ULTIMA_COLECAO = 'guff:ultima-colecao'
+  const CORES_PADRAO = ['#8C93F2', '#6FCF97', '#F2C879', '#F2777A', '#79D6F2']
 
   const gridCartas = document.getElementById('grid-cartas')
   const inputBusca = document.getElementById('busca')
   const containerFiltros = document.getElementById('container-filtros')
   const btnExportarLiga = document.getElementById('btn-exportar-ligamagic')
-  const seletorColecao = document.getElementById('seletor-colecao')
+  const switcher = document.getElementById('switcher')
   const tituloColecao = document.getElementById('titulo-colecao')
 
+  const heroPercent = document.getElementById('hero-percent')
   const elTotal = document.getElementById('total-cartas')
   const elColetadas = document.getElementById('cartas-coletadas')
   const elFaltantes = document.getElementById('cartas-faltantes')
@@ -35,17 +37,12 @@ document.addEventListener('DOMContentLoaded', () => {
   const spanFecharModal = document.querySelector('.modal-fechar')
   const backdropModal = document.querySelector('.modal-backdrop')
 
-  // Id da última carta atualizada por clique, usado só pra disparar o pulse visual uma vez
   let ultimaCartaAtualizadaId = null
 
-  // Observa quais cartas foil estão fora da tela pra pausar a animação delas (economiza CPU/GPU)
-  const observadorFoil = ('IntersectionObserver' in window)
-    ? new IntersectionObserver((entradas) => {
-      entradas.forEach(entrada => {
-        entrada.target.classList.toggle('foil-pausado', !entrada.isIntersecting)
-      })
-    }, { root: null, threshold: 0 })
-    : null
+  // Pausa a animação do foil/etched quando a aba não está visível (economiza CPU/GPU em segundo plano)
+  document.addEventListener('visibilitychange', () => {
+    document.body.classList.toggle('animacoes-pausadas', document.hidden)
+  })
 
   const mostrarErro = (mensagem) => {
     if (gridCartas) {
@@ -63,7 +60,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // --- Carregamento da lista de coleções e do seletor ---
+  const corDaColecao = (colecao, index) => colecao.cor || CORES_PADRAO[index % CORES_PADRAO.length]
+
+  // --- Carregamento da lista de coleções e do switcher ---
 
   const carregarColecoes = async () => {
     try {
@@ -76,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
         return
       }
 
-      renderizarSeletorColecoes()
+      renderizarSwitcher()
 
       const ultimaSalva = localStorage.getItem(CHAVE_ULTIMA_COLECAO)
       const slugInicial = colecoes.some(c => c.slug === ultimaSalva) ? ultimaSalva : colecoes[0].slug
@@ -88,27 +87,39 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  const renderizarSeletorColecoes = () => {
-    if (!seletorColecao) return
-    seletorColecao.innerHTML = ''
+  const renderizarSwitcher = () => {
+    if (!switcher) return
+    switcher.innerHTML = ''
 
-    colecoes.forEach(colecao => {
-      const option = document.createElement('option')
-      option.value = colecao.slug
-      option.textContent = colecao.erro
-        ? `${colecao.nome} (erro ao carregar)`
-        : `${colecao.nome} — ${colecao.coletadas ?? 0}/${colecao.total ?? 0}`
-      seletorColecao.appendChild(option)
+    colecoes.forEach((colecao, index) => {
+      const cor = corDaColecao(colecao, index)
+      const btn = document.createElement('button')
+      btn.type = 'button'
+      btn.className = 'pill-colecao' + (colecao.slug === colecaoAtual ? ' ativa' : '')
+      btn.style.setProperty('--pill-cor', cor)
+      btn.setAttribute('aria-pressed', colecao.slug === colecaoAtual ? 'true' : 'false')
+
+      const progresso = colecao.erro ? 'erro' : `${colecao.coletadas ?? 0}/${colecao.total ?? 0}`
+      btn.innerHTML = `
+        <span class="ponto"></span>
+        ${colecao.nome}
+        <span class="pill-progresso">${progresso}</span>
+      `
+
+      btn.addEventListener('click', () => selecionarColecao(colecao.slug))
+      switcher.appendChild(btn)
     })
   }
 
   const selecionarColecao = (slug) => {
     colecaoAtual = slug
-    if (seletorColecao) seletorColecao.value = slug
     localStorage.setItem(CHAVE_ULTIMA_COLECAO, slug)
 
-    const colecao = colecoes.find(c => c.slug === slug)
+    const index = colecoes.findIndex(c => c.slug === slug)
+    const colecao = index !== -1 ? colecoes[index] : null
     if (tituloColecao) tituloColecao.textContent = colecao ? colecao.nome : 'Guff'
+
+    renderizarSwitcher()
 
     filtroAtual = 'todas'
     paginaAtual = 1
@@ -118,10 +129,6 @@ document.addEventListener('DOMContentLoaded', () => {
     })
 
     carregarCartas()
-  }
-
-  if (seletorColecao) {
-    seletorColecao.addEventListener('change', (e) => selecionarColecao(e.target.value))
   }
 
   // --- Cartas da coleção selecionada ---
@@ -294,6 +301,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const faltantes = total - coletadas
     const porcentagem = total === 0 ? 0 : Math.round((coletadas / total) * 100)
 
+    if (heroPercent) heroPercent.textContent = `${porcentagem}%`
     if (elTotal) elTotal.textContent = total
     if (elColetadas) elColetadas.textContent = coletadas
     if (elFaltantes) elFaltantes.textContent = faltantes
@@ -301,13 +309,19 @@ document.addEventListener('DOMContentLoaded', () => {
       elProgressBar.style.width = `${porcentagem}%`
       elProgressBar.style.background = porcentagem >= 100 ? 'var(--success-color)' : 'var(--accent-color)'
     }
+
+    const colecaoIndex = colecoes.findIndex(c => c.slug === colecaoAtual)
+    if (colecaoIndex !== -1) {
+      colecoes[colecaoIndex].total = total
+      colecoes[colecaoIndex].coletadas = coletadas
+      renderizarSwitcher()
+    }
   }
 
   const renderizarGrid = () => {
     if (!gridCartas) return
     gridCartas.innerHTML = ''
 
-    // Filtro/busca sem nenhum resultado (diferente de "coleção vazia por falta de dados")
     if (cartasExibidas.length === 0) {
       const estadoVazio = document.createElement('div')
       estadoVazio.className = 'estado-vazio'
@@ -342,7 +356,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
       if (carta) {
         if (carta.isPlaceholder) {
-          // Divisória de edição: visualmente distinta de um slot vazio de verdade
           slot.className = 'slot-carta slot-divisoria'
           slot.innerHTML = `<div class="placeholder-text">${carta.edicaoAlvo}</div>`
         } else {
@@ -357,17 +370,7 @@ document.addEventListener('DOMContentLoaded', () => {
           const nomeSeguro = (carta.nome || '').replace(/'/g, "\\'").replace(/"/g, '&quot;')
 
           const tratamento = carta.tratamento || 'normal'
-          let classeTratamento = ''
-          let iconeTratamento = 'NRM'
-
-          if (tratamento === 'foil') {
-            classeTratamento = 'efeito-foil'
-            iconeTratamento = 'FOIL'
-          } else if (tratamento === 'etched') {
-            classeTratamento = 'efeito-etched'
-            iconeTratamento = 'ETCH'
-          }
-
+          const classeTratamento = tratamento === 'foil' ? 'efeito-foil' : tratamento === 'etched' ? 'efeito-etched' : ''
           const classePulso = carta.id === ultimaCartaAtualizadaId ? 'pulso' : ''
 
           slot.className = 'slot-carta'
@@ -383,7 +386,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 <button class="btn-qtd" onclick="atualizarQtd('${carta.id}', -1)" aria-label="Diminuir quantidade de ${nomeSeguro}">&minus;</button>
                 <span class="qtd-valor ${classePulso}">${carta.quantidade}</span>
                 <button class="btn-qtd" onclick="atualizarQtd('${carta.id}', 1)" aria-label="Aumentar quantidade de ${nomeSeguro}">&plus;</button>
-                <button class="btn-tratamento" onclick="alternarTratamento('${carta.id}', '${tratamento}')" aria-label="Alterar tratamento de ${nomeSeguro}, atual: ${tratamento}" title="Alterar Tratamento">${iconeTratamento}</button>
+                <button class="btn-tratamento" onclick="alternarTratamento('${carta.id}', '${tratamento}')" aria-label="Alterar tratamento de ${nomeSeguro}, atual: ${tratamento}" title="Alterar Tratamento">
+                  <span class="pip pip-${tratamento}"></span>
+                </button>
             </div>
           `
         }
@@ -395,11 +400,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     ultimaCartaAtualizadaId = null
-
-    // Observa as cartas foil pra pausar a animação das que saem da tela
-    if (observadorFoil) {
-      gridCartas.querySelectorAll('.efeito-foil').forEach(el => observadorFoil.observe(el))
-    }
   }
 
   const aplicarFiltrosEBusca = () => {
@@ -422,8 +422,7 @@ document.addEventListener('DOMContentLoaded', () => {
       return matchBusca && matchFiltro
     })
 
-    // Insere divisórias sempre que a edição-base muda, na ordem em que as cartas
-    // já vêm ordenadas do backend — funciona pra qualquer coleção, não só LTR/LTC.
+    // Insere divisórias sempre que a edição-base muda, funciona pra qualquer coleção
     if (filtroAtual === 'todas' && termoBusca === '') {
       let resultadoComPlaceholders = []
       let edicaoBaseAnterior = null
